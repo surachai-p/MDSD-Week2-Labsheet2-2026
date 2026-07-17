@@ -400,9 +400,10 @@ flutter run
 **✏️ ทดลองแก้ไข B:** เปลี่ยน `fontSize: 24` เป็น `fontSize: 48` บันทึกไฟล์และสังเกตผล
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1470" height="956" alt="การทดลองที่ 1" src="https://github.com/user-attachments/assets/225e5c4e-65c7-4956-a01c-41883cb1b860" />
+
 ---
 
 ### การทดลองที่ 2 — Layout Widgets: Column, Row, Container
@@ -460,14 +461,17 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1470" height="952" alt="การทดลองที่ 2" src="https://github.com/user-attachments/assets/b689b0a3-810c-4eeb-811e-f48da3d96824" />
+
+
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1470" height="955" alt="การทดลองที่ 2 1" src="https://github.com/user-attachments/assets/faf84e69-6e5a-4023-9289-a8c23d8c9aed" />
+
 ---
 
 ### การทดลองที่ 3 — StatelessWidget แรก
@@ -580,16 +584,19 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1470" height="956" alt="การทดลองที่ 3" src="https://github.com/user-attachments/assets/0c49db2a-4cce-40f6-aeba-b3796a339fd5" />
+
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1470" height="956" alt="การทดลองที่ 3 1" src="https://github.com/user-attachments/assets/cd284e4a-6dbf-42ad-ace6-f1970317f3eb" />
+
+
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
@@ -729,9 +736,10 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1467" height="951" alt="การทดลองที่ 4" src="https://github.com/user-attachments/assets/389a270b-ffe6-46f4-9671-9d180a74264a" />
+
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
@@ -739,9 +747,10 @@ class _CounterSectionState extends State<CounterSection> {
 > **สิ่งที่เกิดขึ้น:** เมื่อไม่มี `setState()` ค่า `_count` เปลี่ยนในหน่วยความจำจริง แต่ Flutter ไม่รู้ว่าต้อง rebuild UI ทำให้หน้าจอยังแสดงค่าเดิม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1470" height="955" alt="การทดลองที่ 4 1" src="https://github.com/user-attachments/assets/f5e2c054-40e5-4d21-9370-3bdaf0a20c41" />
+
 ---
 
 ### การทดลองที่ 5 — StatefulWidget: Form และ Text Input
@@ -869,9 +878,10 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1470" height="956" alt="การทดลองที่ 5" src="https://github.com/user-attachments/assets/6916ad96-17bb-4bfe-a236-49079f44d27c" />
+
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
 
@@ -986,9 +996,10 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1470" height="956" alt="การทดลองที่ 6" src="https://github.com/user-attachments/assets/7ee7f6f5-ad1a-4577-ba08-c5341c0a79e4" />
+
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1416,9 +1427,14 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+Screenshort
+<img width="1470" height="956" alt="การทดลองที่ 7" src="https://github.com/user-attachments/assets/7725ed35-67c9-401c-86e7-901b7afff065" />
+
+<img width="1468" height="953" alt="การทดลองที่ 7 1" src="https://github.com/user-attachments/assets/e0de513e-9ed2-4708-8beb-ab301eb1e248" />
+
+<img width="1470" height="956" alt="การทดลองที่ 7 2" src="https://github.com/user-attachments/assets/ec189543-9e94-403e-96e6-9b50d1de563f" />
+
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
@@ -1442,20 +1458,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme |สีน้ำเงินเข้มอมเขียว|
+| ค่า Counter |15|
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme |ยังเป็นสีน้ำเงินเข้มอมเขียว|
+| ค่า Counter |0|
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> Hot Reload: สี สีน้ำเงินเข้มอมเขียว Counter 15 เพราะ Hot Reload จะอัปเดตเฉพาะโค้ดที่แก้ไขและรักษา State ของแอปไว้ ทำให้ข้อมูลที่กำลังใช้งานไม่หาย
+> Hot Restart: สี ยังเป็นสีน้ำเงินเข้มอมเขียว Counter 0 เพราะ Hot Restart จะเริ่มต้นแอปใหม่ทั้งหมด (รีเซ็ต State) ทำให้ตัวแปรทั้งหมดกลับไปเป็นค่าเริ่มต้น แต่ยังใช้โค้ดล่าสุดที่แก้ไขแล้ว
 
 ---
 
