@@ -1,0 +1,23 @@
+# Flutter/Dart files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# macOS files
+.DS_Store
+
+# IDE and general config
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Workspace sub-ignores
+/week02_flutter_lab/.dart_tool/
+/week02_flutter_lab/build/
+/week02_flutter_lab/.flutter-plugins
+/week02_flutter_lab/.flutter-plugins-dependencies
+/week02_flutter_lab/.packages
