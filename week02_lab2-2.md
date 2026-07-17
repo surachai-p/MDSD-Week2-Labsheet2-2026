@@ -749,7 +749,8 @@ Screenshort
 **บันทึกรูปผลการทดลอง**
 
 Screenshort
-<img width="1470" height="955" alt="การทดลองที่ 4 1" src="https://github.com/user-attachments/assets/f5e2c054-40e5-4d21-9370-3bdaf0a20c41" />
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-07-17 เวลา 15 37 00" src="https://github.com/user-attachments/assets/d19f25bf-dc77-4bad-b753-d2952e31fa2a" />
+
 
 ---
 
