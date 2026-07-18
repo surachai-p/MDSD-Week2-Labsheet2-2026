@@ -400,9 +400,9 @@ flutter run
 **✏️ ทดลองแก้ไข B:** เปลี่ยน `fontSize: 24` เป็น `fontSize: 48` บันทึกไฟล์และสังเกตผล
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="1021" height="718" alt="image" src="https://github.com/user-attachments/assets/9865af57-29db-4f7d-bcf9-fc44157a4d20" />
+
 ---
 
 ### การทดลองที่ 2 — Layout Widgets: Column, Row, Container
@@ -460,14 +460,18 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1299" height="765" alt="1" src="https://github.com/user-attachments/assets/779c7444-3974-485a-973e-54a7928f4b98" />
+<img width="1299" height="767" alt="2" src="https://github.com/user-attachments/assets/3c4aee16-3750-4455-b453-02d04b22c27f" />
+<img width="1302" height="768" alt="3" src="https://github.com/user-attachments/assets/aa240baa-005d-4b23-ba87-600ba9f680ff" />
+<img width="1299" height="763" alt="4" src="https://github.com/user-attachments/assets/7cd8ca4c-a53b-4fc2-92b8-8ddd826e4941" />
+
+
+
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1290" height="763" alt="5" src="https://github.com/user-attachments/assets/f80512ab-e4db-4ada-8459-63aa92acc5c9" />
+
+
 ---
 
 ### การทดลองที่ 3 — StatelessWidget แรก
@@ -580,16 +584,14 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1269" height="749" alt="image" src="https://github.com/user-attachments/assets/cff9670f-2658-4a1b-b7fc-7f3e0dea167f" />
+
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1301" height="765" alt="image" src="https://github.com/user-attachments/assets/821718c3-1180-4827-bc64-674d980cc8cc" />
+
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
@@ -729,9 +731,8 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1306" height="768" alt="image" src="https://github.com/user-attachments/assets/4a954763-b126-47cb-8daa-67df5eb6c2de" />
+
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
@@ -739,9 +740,9 @@ class _CounterSectionState extends State<CounterSection> {
 > **สิ่งที่เกิดขึ้น:** เมื่อไม่มี `setState()` ค่า `_count` เปลี่ยนในหน่วยความจำจริง แต่ Flutter ไม่รู้ว่าต้อง rebuild UI ทำให้หน้าจอยังแสดงค่าเดิม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1283" height="764" alt="8" src="https://github.com/user-attachments/assets/4dbffe4e-d6f5-488b-9c41-6eb698d91bec" />
+<img width="1281" height="749" alt="9" src="https://github.com/user-attachments/assets/7ceb17a0-a606-4ccf-80b5-3c4422379986" />
+
 ---
 
 ### การทดลองที่ 5 — StatefulWidget: Form และ Text Input
@@ -869,9 +870,9 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1303" height="744" alt="10" src="https://github.com/user-attachments/assets/119038ca-27e4-4128-b4af-cbc857c5bf17" />
+
+---
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
 
@@ -986,9 +987,9 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1301" height="768" alt="image" src="https://github.com/user-attachments/assets/7eb2fef0-2cd0-4f59-80d0-e24379122b96" />
+
+
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1416,9 +1417,11 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1306" height="768" alt="image" src="https://github.com/user-attachments/assets/3650f61e-6027-4440-8bca-871754e00ce2" />
+<img width="1308" height="766" alt="13" src="https://github.com/user-attachments/assets/9d6d4acf-7a28-4fda-96cb-3f06783336ed" />
+<img width="1302" height="765" alt="14" src="https://github.com/user-attachments/assets/262f4dbf-ff00-4d17-aba1-90c808ce2443" />
+
+
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
@@ -1442,20 +1445,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เปลี่ยนเป็นสี Teal |
+| ค่า Counter | ค่าเท่าเดิมไม่เปลี่ยนแปลง |
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เปลี่ยนเป็นสี Teal |
+| ค่า Counter | กลับไปเริ่มต้นที่ 0 ใหม่ |
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> Hot Reload: สี _เปลี่ยนเป็นสี Teal_ Counter _มีค่าเท่าเดิมไม่เปลี่ยนแปลง_ เพราะ Hot Reload จะอัปเดตเฉพาะโค้ดของหน้าตา (UI) ที่เปลี่ยนไป แต่จะยังคงรักษาค่าของ State  เอาไว้เหมือนเดิมโดยไม่ต้องรันแอปใหม่
+> Hot Restart: สี _เปลี่ยนเป็นสี Teal_ Counter _รีเซ็ตกลับเป็น 0_ เพราะ Hot Restart จะทำลาย State และสถานะเก่าทั้งหมดทิ้ง แล้วเริ่มต้นรันแอปพลิเคชันใหม่ตั้งแต่ฟังก์ชัน main() ตัวแปรทุกอย่างจึงกลับไปเป็นค่าเริ่มต้น
 
 ---
 
@@ -1477,20 +1480,50 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 ### คำถามท้ายใบงาน
 
 **ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
-
+```
+ตอบ:เหตุผล: Flutter วาดทุกอย่างลงหน้าจอเองโดยตรง เหมือนเล่นเกม ไม่ได้ไปสั่งยืมปุ่มของ iOS หรือ Android มาใช้
+    ข้อดี: หน้าตาแอปเหมือนกันเป๊ะ 100% ทุกเครื่อง และแสดงผลได้ลื่นไหลมาก
+    ข้อเสีย: ขนาดไฟล์แอปใหญ่กว่าปกติ และปุ่มจะไม่เปลี่ยนหน้าตาตามระบบปฏิบัติการเวลา iOS/Android อัปเดตเวอร์ชันใหม่
+```
 **ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
+```
+ตอบ::Widget Tree: พิมพ์เขียวหน้าตาแอป (ถูกสร้างใหม่บ่อยมาก น้ำหนักเบา)
 
+    Element Tree: ผู้จัดการ คอยเชื่อมพิมพ์เขียวกับตัววาดจริง
+
+    RenderObject Tree: ช่างทาสี คอยคำนวณขนาดและลงมือวาดลงจอจริง
+    ความสัมพันธ์ระหว่าง Parent-Child Widget:
+ 
+```
 **ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
+```
+ตอบ:โครงสร้าง: เป็นแผนผังต้นไม้ แตกกิ่งก้านสาขาไล่จากบนลงล่าง (เช่น แม่ครอบลูก)
+     ความสัมพันธ์: แม่ (Parent) ส่งกรอบขนาดให้ลูก -> ลูก (Child) บอกขนาดตัวเองกลับไป -> แม่จัดวางตำแหน่งให้ลูกบนจอ
 
+```
 **ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
+```
+ตอบ:ผลลัพธ์: กดปุ่มแล้วตัวเลขบนหน้าจอนิ่งสนิท ไม่ยอมเปลี่ยนตาม
+     เหตุผล: ในหน่วยความจำค่าตัวเลขมันเปลี่ยนไปแล้ว แต่เพราะไม่มี setState() คอยสะกิดบอกให้หน้าจอสั่ง Rebuild (วาดใหม่) UI ก็เลยแสดงเลขเดิมค้างไว้
 
+```
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
+```
+ตอบ: StatelessWidget: หน้าตานิ่งสนิท ข้อมูลไม่เปลี่ยนหลังวาดเสร็จ (เช่น InfoCard)
+     StatefulWidget: หน้าตาเปลี่ยนไปมาได้ ข้อมูลขยับได้ (เช่น CounterSection กดเปลี่ยนเลข, ClockWidget เวลาวิ่ง, GreetingForm พิมพ์ข้อความแล้วทักทาย)
+
+```
 
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
+```
+ตอบ: เพื่อสั่งฆ่าตัวจับเวลาทิ้ง เมื่อหน้านั้นถูกปิดไปแล้ว
+      หากไม่ทำ:ถ้าไม่สั่งปิด ตัวจับเวลาจะแอบวิ่งในพื้นหลังตลอดไป ทำให้เกิด Memory Leak (กินแรมเครื่องไปเรื่อยๆ) จนแอปช้า กระตุก หรือค้างเด้งในที่สุดครับ
 
+```
 ---
 
 ## ข้อผิดพลาดที่พบบ่อยใน Flutter
+
 
 | อาการ | สาเหตุที่เป็นไปได้ | วิธีแก้ |
 |---|---|---|
