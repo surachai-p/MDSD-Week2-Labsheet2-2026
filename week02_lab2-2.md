@@ -1454,8 +1454,8 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> Hot Reload: สี teal Counter 15 เพราะ Hot Reload เพืยง inject code ที่แก้ไขใหม่เข้าไปใน Dart VM ที่ run อยู่ โดยไม่เรียก main 
+> Hot Restart: สี teal Counter 0 เพราะ ถูกบันทึกใน Hot Reload 
 
 ---
 
