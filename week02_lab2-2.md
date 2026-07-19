@@ -1424,6 +1424,12 @@ class _GreetingFormState extends State<GreetingForm> {
 
 <img width="468" height="1015" alt="image" src="https://github.com/user-attachments/assets/8135ff0b-fa66-4c47-b632-fa584746c12a" />
 
+
+<img width="450" height="1011" alt="image" src="https://github.com/user-attachments/assets/d393cfb2-932b-4e79-a539-e21e46808a57" />
+
+
+<img width="462" height="1016" alt="image" src="https://github.com/user-attachments/assets/6af6edae-d5a4-44c4-be3a-deab80490cde" />
+
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
