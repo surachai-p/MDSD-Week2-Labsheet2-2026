@@ -403,6 +403,9 @@ flutter run
 ```
 บันทึกรูปที่นี่
 ```
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 110639" src="https://github.com/user-attachments/assets/9eabcba9-59de-410b-8529-1e47d20492c0" />
+
 ---
 
 ### การทดลองที่ 2 — Layout Widgets: Column, Row, Container
@@ -463,11 +466,17 @@ flutter run
 ```
 บันทึกรูปที่นี่
 ```
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 121917" src="https://github.com/user-attachments/assets/5bbe3f35-07be-4887-bf26-8363eba0738c" />
+
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
 ```
 บันทึกรูปที่นี่
 ```
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 122242" src="https://github.com/user-attachments/assets/5d7e580a-ebf8-4ddb-a4aa-9d573648e21d" />
+
 ---
 
 ### การทดลองที่ 3 — StatelessWidget แรก
@@ -584,12 +593,17 @@ class InfoCard extends StatelessWidget {
 บันทึกรูปที่นี่
 ```
 
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 122505" src="https://github.com/user-attachments/assets/c142f1a1-d8de-46a7-a12f-31c228a28b33" />
+
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
 ```
 บันทึกรูปที่นี่
 ```
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 122528" src="https://github.com/user-attachments/assets/baf170da-40f0-4512-8388-1a4fc5d3816b" />
+
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
@@ -733,6 +747,7 @@ class _CounterSectionState extends State<CounterSection> {
 บันทึกรูปที่นี่
 ```
 
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 123123" src="https://github.com/user-attachments/assets/799ac5ec-aadf-418c-832e-e0da29ceb262" />
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
 
@@ -742,6 +757,9 @@ class _CounterSectionState extends State<CounterSection> {
 ```
 บันทึกรูปที่นี่
 ```
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 123646" src="https://github.com/user-attachments/assets/c0762060-71fe-4803-9669-80fd394d956e" />
+
 ---
 
 ### การทดลองที่ 5 — StatefulWidget: Form และ Text Input
@@ -873,6 +891,8 @@ class _GreetingFormState extends State<GreetingForm> {
 บันทึกรูปที่นี่
 ```
 
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 123944" src="https://github.com/user-attachments/assets/b2b3123d-e0e2-4d1a-bf1f-eb8d75b2add1" />
+
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
 
 ---
@@ -989,6 +1009,8 @@ import 'dart:async';
 ```
 บันทึกรูปที่นี่
 ```
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 124420" src="https://github.com/user-attachments/assets/86d28fa7-c403-4c59-8bfb-808e58de31c5" />
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1419,6 +1441,13 @@ class _GreetingFormState extends State<GreetingForm> {
 ```
 บันทึกรูปที่นี่
 ```
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 124703" src="https://github.com/user-attachments/assets/db82cf8d-e26e-4ee6-8705-4985a83cc68f" />
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 124710" src="https://github.com/user-attachments/assets/16e05608-279f-4282-b9b3-e7a7934802de" />
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 124731" src="https://github.com/user-attachments/assets/c84dd3df-4310-45fa-8664-18eb71d911dd" />
+
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
@@ -1457,6 +1486,8 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 > Hot Reload: สี teal Counter 15 เพราะ Hot Reload เพืยง inject code ที่แก้ไขใหม่เข้าไปใน Dart VM ที่ run อยู่ โดยไม่เรียก main 
 > Hot Restart: สี teal Counter 0 เพราะ ถูกบันทึกใน Hot Reload 
 
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 125742" src="https://github.com/user-attachments/assets/74acd3b4-a532-4ba5-b60a-681d2c735e75" />
+
 ---
 
 ### 🎯 โจทย์ฝึกทำ — ขยาย App ด้วยตนเอง
@@ -1465,7 +1496,11 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **โจทย์ A (ง่าย):** เพิ่ม Tab ที่ 4 ชื่อ "About" แสดงชื่อ รหัสนักศึกษา และคณะของตัวเอง พร้อมรูป Avatar (ใช้ `CircleAvatar` กับ Text แรกของชื่อ)
 
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 132936" src="https://github.com/user-attachments/assets/700940b6-f05d-4a7b-b115-de4e3df0bccb" />
+
 **โจทย์ B (กลาง):** ใน Counter Page เพิ่ม History ที่บันทึกทุกการกระทำ (เพิ่ม/ลด/Reset) พร้อมเวลา เช่น "14:30:25 — เพิ่ม 5 (รวม: 15)" แสดงเป็น List ด้านล่าง Counter และมีปุ่ม "ล้าง History"
+
+<img width="1917" height="1078" alt="Screenshot 2026-07-17 132331" src="https://github.com/user-attachments/assets/7642e4fb-f9b1-470c-82be-fbea7aa1fd4d" />
 
 **โจทย์ C (กลาง):** ใน Form Page เพิ่ม Dropdown เลือก "ภาษาของคำทักทาย" (ไทย / อังกฤษ / ญี่ปุ่น) และเปลี่ยนข้อความคำทักทายตามภาษาที่เลือก
 
