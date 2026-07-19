@@ -992,9 +992,8 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="466" height="1015" alt="image" src="https://github.com/user-attachments/assets/eb37e568-f503-42cc-94cf-3c55a18f1638" />
+
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1422,9 +1421,9 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="468" height="1015" alt="image" src="https://github.com/user-attachments/assets/8135ff0b-fa66-4c47-b632-fa584746c12a" />
+
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
@@ -1448,20 +1447,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | teal |
+| ค่า Counter |ค่าไม่รี |
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | teal|
+| ค่า Counter |ค่ารี |
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> Hot Reload: สี teal Counter 15 เพราะ Hot Reload จะทำการพ่นโค้ดใหม่ (เช่น โค้ดสี Theme) เข้าไปใน Virtual Machine (VM) ของ Dart เท่านั้น โดยที่มันไม่ได้ไปยุ่งหรือล้างหน่วยความจำเดิมเลย ทำให้ตัวแปรที่เป็น State (_count) ของ StatefulWidget ที่จำอยู่ในแรมยังคงมีค่าเท่าเดิมก่อนที่จะกดเซฟ
+> Hot Restart: สี teal Counter 0 เพราะ การสั่งให้ แอปพลิเคชันเริ่มต้นทำงานใหม่ตั้งแต่ฟังก์ชัน main() หรือเคลียร์ทุกอย่างให้เหมือนเพิ่งเปิดแอปขึ้นมาใหม่ ส่งผลให้ระบบทำการ ทำลาย State เก่าทิ้งทั้งหมดในแรม (ล้างหน่วยความจำ) และเรียกฟังก์ชัน initState() เพื่อสร้างค่าเริ่มต้นของตัวแปรใหม่ทั้งหมด ค่า Counter จึงกลับไปสตาร์ทที่ 0 ใหม่
 
 ---
 
