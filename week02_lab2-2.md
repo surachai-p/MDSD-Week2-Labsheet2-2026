@@ -401,7 +401,7 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/07a43dd4-31fb-4ed5-9851-bbb6a5cf90e8" />
 ```
 ---
 
@@ -460,14 +460,26 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+.start
+<img width="438" height="1015" alt="image" src="https://github.com/user-attachments/assets/79954bde-12c6-4f65-9883-a40d6ba709e9" />
+
+.end
+<img width="436" height="1010" alt="image" src="https://github.com/user-attachments/assets/db75c42a-e765-468b-a9c6-ef98173d62ce" />
+
+.spaceBetween
+<img width="440" height="1020" alt="image" src="https://github.com/user-attachments/assets/632293c6-9d66-4e38-9601-c43abf96dd0d" />
+
+.spaceEvenly
+<img width="445" height="1013" alt="image" src="https://github.com/user-attachments/assets/cf964241-c935-472e-847d-f7158820031c" />
+
+
+
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="420" height="1010" alt="image" src="https://github.com/user-attachments/assets/c8e51763-c3c6-4d49-811d-8c49bfa1b880" />
+
 ---
 
 ### การทดลองที่ 3 — StatelessWidget แรก
