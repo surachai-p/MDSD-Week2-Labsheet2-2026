@@ -1,0 +1,23 @@
+# Ignore everything by default
+*
+!*/
+
+# Only allow Markdown files in root
+!*.md
+
+# Only allow screenshots folder and images
+!screenshots/
+!screenshots/**
+!*.png
+!*.jpg
+!*.jpeg
+!*.webp
+
+# Keep .gitignore
+!.gitignore
+
+# Explicitly ignore code folder & IDE settings
+week02_flutter_lab/
+week02_flutter_lab/**
+.vscode/
+.idea/

@@ -400,9 +400,7 @@ flutter run
 **✏️ ทดลองแก้ไข B:** เปลี่ยน `fontSize: 24` เป็น `fontSize: 48` บันทึกไฟล์และสังเกตผล
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 1](screenshots/1.png)
 ---
 
 ### การทดลองที่ 2 — Layout Widgets: Column, Row, Container
@@ -460,14 +458,10 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 2 (2.1)](screenshots/2.png)
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 2 (2.2)](screenshots/3.png)
 ---
 
 ### การทดลองที่ 3 — StatelessWidget แรก
@@ -580,16 +574,12 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 3 (3.1)](screenshots/4.png)
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 3 (3.2)](screenshots/5.png)
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
@@ -729,9 +719,8 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 4 (4.1)](screenshots/6.12.png)
+![ผลการทดลองที่ 4 (4.1)](screenshots/6.13.png)
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
@@ -739,9 +728,7 @@ class _CounterSectionState extends State<CounterSection> {
 > **สิ่งที่เกิดขึ้น:** เมื่อไม่มี `setState()` ค่า `_count` เปลี่ยนในหน่วยความจำจริง แต่ Flutter ไม่รู้ว่าต้อง rebuild UI ทำให้หน้าจอยังแสดงค่าเดิม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 4 (4.2)](screenshots/6.2.png)
 ---
 
 ### การทดลองที่ 5 — StatefulWidget: Form และ Text Input
@@ -869,9 +856,7 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 5](screenshots/7.png)
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
 
@@ -986,9 +971,7 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 6](screenshots/8.png)
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1416,9 +1399,12 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![ผลการทดลองที่ 7 (Dashboard)](screenshots/9.1.png)
+![ผลการทดลองที่ 7 (Counter)](screenshots/9.21.png)
+![ผลการทดลองที่ 7 (Counter Step 5)](screenshots/9.22.png)
+![ผลการทดลองที่ 7 (Counter Step 10)](screenshots/9.23.png)
+![ผลการทดลองที่ 7 (Form)](screenshots/9.24.png)
+![ผลการทดลองที่ 7 (Form Result)](screenshots/9.3.png)
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
@@ -1442,20 +1428,21 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เปลี่ยนเป็นสี Teal (เขียวไข่กา) |
+| ค่า Counter | ยังคงเป็น 15 เท่าเดิม (ไม่ถูกรีเซ็ต) |
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เปลี่ยนเป็นสี Teal (เขียวไข่กา) |
+| ค่า Counter | ถูกรีเซ็ตกลับเป็น 0 |
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> **Hot Reload:** สี **เปลี่ยนเป็นสี Teal** Counter **ยังคงมีค่า 15 เท่าเดิม** เพราะ **Hot Reload จะทำการฉีดโค้ดใหม่ (Inject code) เข้าไปใน Dart VM แล้วสั่ง Rebuild เฉพาะ Widget Tree โดยที่ยังคงรักษา State ในหน่วยความจำ (State Preservation) ของ StatefulWidget ไว้เหมือนเดิม**
+> 
+> **Hot Restart:** สี **เปลี่ยนเป็นสี Teal** Counter **ถูกรีเซ็ตกลับเป็น 0** เพราะ **Hot Restart จะทอดทิ้ง App State ทั้งหมด ทำการรีสตาร์ท Dart VM ใหม่ตั้งแต่ต้น สั่งรัน `main()` และทำกระบวนการ `initState()` ใหม่ทั้งหมดตั้งแต่เริ่มต้น**
 
 ---
 
@@ -1471,6 +1458,13 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **โจทย์ D (ยาก):** สร้าง Tab ใหม่ "Todo List" ที่มี TextField รับชื่องาน, ปุ่ม Add, รายการ Todo ที่กดติ๊กถูก/ลบได้ และแสดงจำนวนงานที่เหลือ
 
+**บันทึกรูปผลการทดลอง (โจทย์ฝึกทำ)**
+![โจทย์ฝึกทำ 1](screenshots/10.1.png)
+![โจทย์ฝึกทำ 2](screenshots/10.2.png)
+![โจทย์ฝึกทำ 3](screenshots/10.3.png)
+![โจทย์ฝึกทำ 4](screenshots/10.4.png)
+![โจทย์ฝึกทำ 5](screenshots/10.5.png)
+
 ---
 
 
@@ -1478,15 +1472,66 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
 
+**ตอบ:** Flutter เลือกใช้วาด UI ทุก Pixel ลงบน Canvas โดยตรงด้วย Rendering Engine ของตัวเอง (เช่น Impeller / Skia) แทนที่จะแปลงโค้ดเป็น Native Components เพื่อข้ามขั้นตอน Bridge ของแพลตฟอร์ม ทำให้สามารถควบคุมการแสดงผลและเฟรมเรตได้เต็มที่
+* **ข้อดี:**
+  1. **Pixel-Perfect Consistency:** UI แสดงผลและเรียกลายเส้นเหมือนกันทุกประการบนทุก OS/Device (Android, iOS, Web, Desktop)
+  2. **High Performance:** ไม่ผ่าน Bridge Layer ประมวลผลกราฟิกด้วย GPU โดยตรง ทำให้ทำ Animation ลื่นไหล 60-120 FPS
+  3. **Control & Customization:** นักพัฒนาสามารถสร้าง UI แบบ Custom หรือปรับแต่งสไตล์ข้ามแพลตฟอร์มได้อิสระ ไม่ติดข้อจำกัดของ OS เวอร์ชันเก่า
+* **ข้อเสีย:**
+  1. **File Size ใหญ่กว่า:** เนื่องจากต้อง Bundle ตัว Rendering Engine (Impeller/Skia) รวมเข้าไปในไฟล์ติดตั้ง App
+  2. **Look & Feel ไม่ใช่ Native 100%:** บาง Component ต้องเลียนแบบพฤติกรรม Native (เช่น iOS Bounce Scroll หรือ Context Menu) หาก OS อัปเดตพฤติกรรมใหม่ Flutter อาจจะต้องอัปเดตไลบรารีตาม
+
+---
+
 **ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
+
+**ตอบ:** Flutter แบ่งการจัดการ UI ออกเป็น 3 ต้นไม้ทำงานประสานกันดังนี้:
+1. **Widget Tree (Configuration Layer):** เป็นต้นไม้คำอธิบายหน้าตา UI มีลักษณะเป็น *Immutable* (สร้างใหม่ได้บ่อย ราคาถูก ประมวลผลเร็ว)
+2. **Element Tree (Context/Lifecycle Layer):** เป็นตัวกลางที่คอยเชื่อมระหว่าง Widget กับ RenderObject ทำหน้าที่จำตำแหน่ง (Location in Tree) และเก็บ State (ในกรณีของ StatefulWidget) Element จะถูกรีไซเคิลและไม่ถูกสร้างใหม่บ่อยตาม Widget
+3. **RenderObject Tree (Drawing Layer):** ทำหน้าที่คำนวณขนาด (Sizing), ตำแหน่งจัดวาง (Layout), และการวาดจริง (Painting/Render) ลงบนหน้าจอ มีต้นทุนในการสร้างสูงที่สุด
+* **เหตุผลที่ต้องมีทั้ง 3 ส่วน:** เพื่อการปรับปรุงประสิทธิภาพสูงสุด (Performance Optimization) เมื่อ State เปลี่ยน Flutter จะ rebuild เฉพาะ Widget Tree แต่องค์ประกอบหนักๆ อย่าง RenderObject จะถูก Element reuse และปรับเปลี่ยนเฉพาะพารามิเตอร์ที่จำเป็น ทำให้ไม่ต้องคำนวณการวาดหน้าจอใหม่ทั้งหมดทุกครั้ง
+
+---
 
 **ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
 
+**ตอบ:**
+* **โครงสร้าง Widget Tree:** ทุก UI Component ใน Flutter ถูกจัดเรียงแบบลำดับชั้น (Hierarchical Tree Structure) โดยมี Root Widget เป็นตัวครอบบนสุด (เช่น `MaterialApp`) แล้วแตกกิ่งก้านสาขาลงมาผ่านโครงสร้าง `Scaffold` -> `Column`/`Row` -> `Container` / `Text`
+* **ความสัมพันธ์ Parent-Child:**
+  * **Data Flow (การส่งข้อมูล):** ข้อมูลจะไหลลงจาก Parent Widget ไปยัง Child Widget ผ่านทาง Constructor Parameter (Props) เสมอ
+  * **Event Flow (การแจ้งเตือนเหตุการณ์):** ข้อมูลเหตุการณ์ (เช่น การกดปุ่ม) จะส่งกลับจาก Child ขึ้นไปยัง Parent ผ่านทาง Callback Function (เช่น `onPressed`, `onChanged`)
+  * **Layout Constraints:** Parent เป็นผู้กำหนดขอบเขตขนาดสูงสุด-ต่ำสุด (Constraints) ส่งลงไปให้ Child และ Child จะตัดสินใจเลือกขนาดของตัวเองส่งกลับขึ้นไปให้ Parent จัดวางตำแหน่ง
+
+---
+
 **ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
+
+**ตอบ:**
+* **ผลที่เกิดขึ้น:** เมื่อกดปุ่มเพิ่ม/ลด ตัวเลขบนหน้าจอไม่เปลี่ยนแปลง ยังคงแสดงค่าเดิม แต่ตัวแปรในหน่วยความจำมีการอัปเดตจริง
+* **เหตุผลเชิงเทคนิค:** `setState()` ทำหน้าที่ส่งสัญญาณบอก Flutter Framework ว่า State ภายในเปลี่ยนแปลงไปแล้ว และมาร์กหน้าต่าง Element นั้นว่าเป็น `dirty` เพื่อสั่งให้ Flutter เรียกฟังก์ชัน `build()` ใหม่ในเฟรมถัดไป ดังนั้น เมื่อลบ `setState()` ออก Framework จึงไม่รู้ว่ามีข้อมูลเปลี่ยน และไม่ได้สั่งรัน `build()` ใหม่ ทำให้ Element Tree และ RenderObject Tree แสดงผลตัวเลขจาก Widget เดิมบนหน้าจอ
+
+---
 
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
 
+**ตอบ:**
+* **เกณฑ์การตัดสินใจ:**
+  * **StatelessWidget:** ใช้เมื่อ Widget นั้นแสดงผล UI ที่คงที่ หรือรับค่า data จากภายนอกเข้ามาแสดงผลเพียงอย่างเดียว โดยไม่มีการเปลี่ยนแปลงค่าภายในตัวเองระหว่างที่ Widget ทำงานอยู่
+  * **StatefulWidget:** ใช้เมื่อ Widget นั้นมีข้อมูล (State) ที่สามารถเปลี่ยนแปลงได้ตามการโต้ตอบของผู้ใช้ (User Interaction), เวลา (Time/Timer), การตอบรับจาก API หรือการปรับปรุง UI ภายในตัวเอง
+* **ตัวอย่างจากใบงาน:**
+  * `InfoCard` เป็น **StatelessWidget** เพราะรับค่า `title`, `value`, `icon` ผ่าน Constructor มาแสดงผลเฉยๆ ไม่มีการเปลี่ยนค่าตัวเองใน Card
+  * `CounterSection` / `ClockWidget` / `GreetingForm` เป็น **StatefulWidget** เพราะมีค่าที่เปลี่ยนไปตามการโต้ตอบหรือเวลา เช่น ตัวเลข `_count` ที่เปลี่ยนเมื่อกดปุ่ม, `_currentTime` ที่เดินทุกวินาที หรือข้อความรับเข้า `TextEditingController`
+
+---
+
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
+
+**ตอบ:**
+* **เหตุผลที่ต้องเรียก `dispose()` และ cancel Timer:** เพื่อคืนทรัพยากร (Clean up resources) ของระบบเมื่อ Widget ถูกทำลายหรือถูกนำออกจาก Widget Tree โดย `Timer.periodic` ทำงานสตรีมในระดับ Event Loop ของระบบ หากไม่สั่ง `_timer?.cancel()` ตัว Timer ก็จะยังคงรันวนลูปและเรียก `setState()` ใน Background ต่อไปเรื่อยๆ
+* **สิ่งที่จะเกิดขึ้นในระยะยาว:**
+  1. **Memory Leak:** Memory จะถูกถือครองไว้โดย Object ที่ไม่ได้ใช้งานแล้ว ทำให้แอปใช้แรมสูงขึ้นเรื่อยๆ
+  2. **Performance Drop & Crashes:** แอปจะทำงานช้าลง กระตุก และอาจเกิด Crash (ปิดตัวเอง)
+  3. **Runtime Exception:** จะเกิด Error แจ้งเตือน `setState() called after dispose()` ในระบบเนื่องจาก Timer พยายามเรียก `setState()` กับ State Object ที่ถูกทำลายไปแล้ว
 
 ---
 
