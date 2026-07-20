@@ -745,8 +745,14 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
+
+<img width="485" height="1022" alt="image" src="https://github.com/user-attachments/assets/b22cc11f-2457-4962-a374-a4ab618b1112" />
+
+<img width="478" height="1020" alt="image" src="https://github.com/user-attachments/assets/b6dfd047-a00a-42a5-b1a2-454b1ddd2393" />
+
+<img width="476" height="987" alt="image" src="https://github.com/user-attachments/assets/b7a1b8cc-89dd-4b58-a322-c30575aaa044" />
+
 ```
-บันทึกรูปที่นี่
 ```
 
 
@@ -755,8 +761,10 @@ class _CounterSectionState extends State<CounterSection> {
 > **สิ่งที่เกิดขึ้น:** เมื่อไม่มี `setState()` ค่า `_count` เปลี่ยนในหน่วยความจำจริง แต่ Flutter ไม่รู้ว่าต้อง rebuild UI ทำให้หน้าจอยังแสดงค่าเดิม
 
 **บันทึกรูปผลการทดลอง**
+
+<img width="478" height="1012" alt="image" src="https://github.com/user-attachments/assets/a8c0c3d6-4438-406b-a78e-1b0a33339d2c" />
+
 ```
-บันทึกรูปที่นี่
 ```
 ---
 
