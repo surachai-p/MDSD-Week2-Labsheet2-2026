@@ -1459,8 +1459,10 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 เลือกทำอย่างน้อย **2 ข้อ** จากโจทย์ด้านล่าง:
 
 **โจทย์ A (ง่าย):** เพิ่ม Tab ที่ 4 ชื่อ "About" แสดงชื่อ รหัสนักศึกษา และคณะของตัวเอง พร้อมรูป Avatar (ใช้ `CircleAvatar` กับ Text แรกของชื่อ)
+<img width="1417" height="791" alt="image" src="https://github.com/user-attachments/assets/0e549337-f93b-4f3a-be54-bb10701a8475" />
 
 **โจทย์ B (กลาง):** ใน Counter Page เพิ่ม History ที่บันทึกทุกการกระทำ (เพิ่ม/ลด/Reset) พร้อมเวลา เช่น "14:30:25 — เพิ่ม 5 (รวม: 15)" แสดงเป็น List ด้านล่าง Counter และมีปุ่ม "ล้าง History"
+<img width="1425" height="817" alt="image" src="https://github.com/user-attachments/assets/dc348cab-f93f-4b6f-ac55-aa54f180bda5" />
 
 **โจทย์ C (กลาง):** ใน Form Page เพิ่ม Dropdown เลือก "ภาษาของคำทักทาย" (ไทย / อังกฤษ / ญี่ปุ่น) และเปลี่ยนข้อความคำทักทายตามภาษาที่เลือก
 
@@ -1472,17 +1474,23 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 ### คำถามท้ายใบงาน
 
 **ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
-
+    - Flutter ใช้ Engine ของตัวเองเพื่อให้ UI เหมือนกันทุกแพลตฟอร์ม
+    **ข้อดี:** เร็วและ UI สม่ำเสมอ  
+    **ข้อเสีย:** ขนาดแอปใหญ่ขึ้น
 **ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
-
+    - Widget Tree: โครงสร้าง UI
+    - Element Tree: จัดการ Widget
+    - RenderObject Tree: จัด Layout และวาดหน้าจอ
 **ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
-
+    Parent Widget เป็นตัวครอบและควบคุม Child Widget ที่อยู่ภายใน
 **ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
-
+    เมื่อเอา `setState()` ออก หน้าจอจะไม่อัปเดต เพราะ Flutter ไม่ Rebuild Widget
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
+    - StatelessWidget: ข้อมูลไม่เปลี่ยน
+    - StatefulWidget: ข้อมูลเปลี่ยนได้ เช่น Counter หรือ ClockWidget
 
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
-
+    - ต้องเรียก `dispose()` และยกเลิก Timer เพื่อป้องกันการใช้หน่วยความจำเกินและข้อผิดพลาดในอนาคต
 ---
 
 ## ข้อผิดพลาดที่พบบ่อยใน Flutter
