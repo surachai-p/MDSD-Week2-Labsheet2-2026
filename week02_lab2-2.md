@@ -1016,8 +1016,10 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
+
+<img width="467" height="1013" alt="image" src="https://github.com/user-attachments/assets/a74ff08e-82ce-4c5e-aa51-8608eda515b5" />
+
 ```
-บันทึกรูปที่นี่
 ```
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
