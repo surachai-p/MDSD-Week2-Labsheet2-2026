@@ -582,6 +582,7 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
+
 <img width="400" alt="card3" src="https://github.com/user-attachments/assets/37b6b4d7-6ed6-4da3-8bdd-b7cfae10ee95" />
 
 
