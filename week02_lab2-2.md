@@ -400,8 +400,10 @@ flutter run
 **✏️ ทดลองแก้ไข B:** เปลี่ยน `fontSize: 24` เป็น `fontSize: 48` บันทึกไฟล์และสังเกตผล
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+
+<img width="1366" height="649" alt="image" src="https://github.com/user-attachments/assets/a6c4794b-c845-47c4-ac05-e3bb49876f4c" />
+<img width="1365" height="640" alt="image" src="https://github.com/user-attachments/assets/9c45341b-e68f-4c1b-afdc-1befeab6d97d" />
+
 ```
 ---
 
@@ -460,13 +462,19 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+
+<img width="1366" height="642" alt="image" src="https://github.com/user-attachments/assets/9c9ba696-8e06-421a-97a6-1e7a9b58a27c" />
+<img width="1366" height="640" alt="image" src="https://github.com/user-attachments/assets/38704c9b-2417-4200-80ac-7257ac74d76c" />
+<img width="1366" height="638" alt="image" src="https://github.com/user-attachments/assets/88300bce-2445-42c9-b254-816a0dcea672" />
+<img width="1366" height="645" alt="image" src="https://github.com/user-attachments/assets/83ab3f74-790e-4368-b0be-ad2529985dbd" />
+<img width="1366" height="640" alt="image" src="https://github.com/user-attachments/assets/5a076672-8c06-4c9f-af19-b611ff329eba" />
+
 ```
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/89bb2935-fe40-4afb-9a34-959914e9ed0c" />
+
 ```
 ---
 
@@ -580,15 +588,17 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+``
+<img width="1366" height="650" alt="image" src="https://github.com/user-attachments/assets/029f9af7-5a70-4baa-bd20-e4d95eac37f3" />
+
 ```
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/d7170438-8c2c-4a79-8a62-b4850114009d" />
+
 ```
 ---
 
@@ -729,8 +739,15 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+``
+<img width="1366" height="645" alt="image" src="https://github.com/user-attachments/assets/0eb9583f-434e-4a66-8660-26177642def1" />
+<img width="1366" height="640" alt="image" src="https://github.com/user-attachments/assets/d97a511f-a5d3-4ea5-a27e-1865998bfaf3" />
+<img width="1366" height="635" alt="image" src="https://github.com/user-attachments/assets/bac7b5b7-e4a6-4f86-a59d-4cd0f3a71caf" />
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/c0234155-4c84-407d-a335-231d6585257d" />
+<img width="1364" height="639" alt="image" src="https://github.com/user-attachments/assets/727437b9-4c8c-4db8-a5c7-8ef4b5a37944" />
+<img width="1366" height="637" alt="image" src="https://github.com/user-attachments/assets/30e6d89a-3da8-44bd-8f97-af5b110cd816" />
+<img width="1366" height="641" alt="image" src="https://github.com/user-attachments/assets/fe1ac877-96e2-4e56-82a8-a96fd6b4be59" />
+
 ```
 
 
@@ -740,7 +757,9 @@ class _CounterSectionState extends State<CounterSection> {
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="1366" height="641" alt="image" src="https://github.com/user-attachments/assets/0d380cda-47a7-4bfd-b351-1491a71c3901" />
+
+
 ```
 ---
 
@@ -869,11 +888,14 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+``
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/71a3f697-9f7a-4b40-b53e-1f974833393c" />
+
+``
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
+
+<img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/07677749-9a7b-41cc-a73d-784761559a81" />
 
 ---
 
@@ -986,11 +1008,14 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+``
+<img width="1366" height="640" alt="image" src="https://github.com/user-attachments/assets/1412d248-b929-4f3f-94e6-f73912d40de6" />
+
+``
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
+<img width="1366" height="636" alt="image" src="https://github.com/user-attachments/assets/2a2c8a01-a89a-4e15-9853-5db1427a2cc9" />
+
 
 ---
 
@@ -1416,8 +1441,12 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+``
+<img width="1366" height="637" alt="image" src="https://github.com/user-attachments/assets/e9d35d62-6e41-479b-b5fa-ae75a972034a" />
+<img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/4d9f2df5-794a-4282-a2c4-0c5018c547c7" />
+<img width="1366" height="638" alt="image" src="https://github.com/user-attachments/assets/30950e95-f8ca-4dfa-aabc-7f6f6d490c23" />
+
+
 ```
 ---
 
@@ -1442,20 +1471,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เปลี่ยนเป็น teal ทันที |
+| ค่า Counter | 15 |
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เป็น teal |
+| ค่า Counter | 0 |
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> Hot Reload: สี teal Counter 15 เพราะ Hot Reload แค่ inject โค้ดที่แก้ไขใหม่เข้าไปในโปรแกรมที่กำลังรันอยู่ แล้วสั่ง rebuild widget tree ใหม่ โดยไม่ได้รัน main() ใหม่และไม่ได้ทำลาย State object เดิม ค่าตัวแปร state (_count) จึงยังอยู่ในหน่วยความจำเหมือนเดิม มีแค่ UI/โค้ดที่เปลี่ยนไปเท่านั้นที่อัปเดต
+> Hot Restart: สี teal Counter 0 เพราะ Hot Restart จะรัน main() ใหม่ทั้งหมด สร้าง widget tree และ State object ใหม่ทั้งหมด (เหมือนปิดแล้วเปิดแอปใหม่ แต่เร็วกว่าเพราะไม่ต้อง compile ใหม่ทั้งหมด) ทำให้ค่าตัวแปรทุกตัวใน State ถูกรีเซ็ตกลับเป็นค่าเริ่มต้นตามที่ประกาศไว้ในโค้ด (int _count = 0)
 
 ---
 
@@ -1464,8 +1493,10 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 เลือกทำอย่างน้อย **2 ข้อ** จากโจทย์ด้านล่าง:
 
 **โจทย์ A (ง่าย):** เพิ่ม Tab ที่ 4 ชื่อ "About" แสดงชื่อ รหัสนักศึกษา และคณะของตัวเอง พร้อมรูป Avatar (ใช้ `CircleAvatar` กับ Text แรกของชื่อ)
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/bc075782-0197-4be6-8a39-72ce34006819" />
 
 **โจทย์ B (กลาง):** ใน Counter Page เพิ่ม History ที่บันทึกทุกการกระทำ (เพิ่ม/ลด/Reset) พร้อมเวลา เช่น "14:30:25 — เพิ่ม 5 (รวม: 15)" แสดงเป็น List ด้านล่าง Counter และมีปุ่ม "ล้าง History"
+<img width="1363" height="648" alt="image" src="https://github.com/user-attachments/assets/a889ed12-1d7b-4f2b-bc38-1098a1674b37" />
 
 **โจทย์ C (กลาง):** ใน Form Page เพิ่ม Dropdown เลือก "ภาษาของคำทักทาย" (ไทย / อังกฤษ / ญี่ปุ่น) และเปลี่ยนข้อความคำทักทายตามภาษาที่เลือก
 
@@ -1478,15 +1509,97 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
 
+Flutter ไม่ได้เรียกใช้ Native UI Widget ของแต่ละแพลตฟอร์ม (เช่น UIButton ของ iOS หรือ Button ของ Android) แต่ใช้ Skia (หรือ Impeller ในเวอร์ชันใหม่) เป็น Rendering Engine ของตัวเอง วาดทุกพิกเซลลงบน Canvas โดยตรง แล้ว "ยืม" แค่หน้าต่างเปล่าๆ (a blank canvas) จาก OS มาแสดงผล
+
+ข้อดี:
+-UI เหมือนกัน 100% ทุกแพลตฟอร์ม — ไม่ต้องกังวลว่า Android กับ iOS จะแสดงผลต่างกัน เพราะ Flutter วาดเองทุกอย่าง ไม่พึ่งพา Native Component ที่มีพฤติกรรมต่างกัน
+-Performance สูงและคาดเดาได้ — ไม่มี "bridge" ที่ต้องสื่อสารข้ามภาษา (เหมือน React Native ที่ต้องส่งข้อมูลผ่าน JS Bridge) ทำให้ลด overhead และ animation ลื่นไหลกว่า
+-ควบคุม UI ได้ละเอียดทุกพิกเซล — ปรับแต่ง widget ได้อิสระ ไม่ติดข้อจำกัดของ Native Component
+-อัปเดต UI ใหม่ได้เร็ว — ไม่ต้องรอ OS อัปเดต Native Component ก็ใช้ลูกเล่นใหม่ได้เลย เพราะ Flutter ควบคุมทุกอย่างเอง
+
+ข้อเสีย:
+-ขนาดแอปใหญ่กว่า — ต้องแพ็ค Engine ของตัวเองไปด้วย (ไม่ได้ใช้ของที่มีอยู่แล้วใน OS)
+-UI อาจ "ไม่ native" จริงๆ — แม้จะเลียนแบบ Material/Cupertino ได้เหมือนมาก แต่บางฟีเจอร์เฉพาะแพลตฟอร์ม (เช่น accessibility บางจุด, การอัปเดต UI ตาม OS เวอร์ชันใหม่ทันที) อาจตามหลัง Native จริง
+-การเข้าถึง Native API ต้องผ่าน Platform Channel เพิ่มเติม ซึ่งมี overhead ในการสื่อสาร
+
 **ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
+Flutter แบ่งงานออกเป็น 3 tree ที่ทำงานคู่กัน:
+
+Widget Tree	คำอธิบาย (configuration) ของ UI ว่าอยากให้หน้าตาเป็นอย่างไร —immutable สร้างใหม่ทุกครั้งที่ build() ทำงาน	
+สร้าง-ทำลายบ่อยมาก (ทุก rebuild)
+
+Element Tree	ตัวเชื่อมระหว่าง Widget กับ RenderObject เก็บ state ที่ยังอยู่ยาว (เช่น ตำแหน่งใน tree, instance ของ State object) — mutable	อยู่ยาวกว่า Widget เพราะ Flutter จะ "update" element เดิมถ้า widget ใหม่เป็นชนิดเดียวกัน ไม่สร้างใหม่ทุกครั้ง
+
+RenderObject Tree	ทำหน้าที่ คำนวณ layout, painting จริง ลงบนหน้าจอ (ขนาด, ตำแหน่ง, การวาด)	หนักสุดในการคำนวณ จึงพยายาม reuse ให้มากที่สุด
 
 **ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
 
+Widget Tree คือโครงสร้างแบบ ต้นไม้ (hierarchical tree) ที่ widget แต่ละตัวสามารถมี child widget ซ้อนกันได้ ยกตัวอย่างจากใบงานนี้:
+
+MaterialApp
+ └── MainScreen (Scaffold)
+      ├── body: _pages[_selectedIndex]
+      │     └── DashboardPage (Scaffold)
+      │           └── SingleChildScrollView
+      │                 └── Column
+      │                       ├── ClockWidget
+      │                       ├── Text('ข้อมูลสรุป')
+      │                       └── InfoCard (x3)
+      │                             └── Card → Padding → Row
+      │                                   ├── CircleAvatar → Icon
+      │                                   └── Column → Text, Text
+      └── bottomNavigationBar: NavigationBar
+      
 **ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
+
+ผลที่เกิดขึ้น: เมื่อกดปุ่ม + ตัวเลขบนหน้าจอ ไม่เปลี่ยนแปลง แม้ว่าจริงๆ แล้วค่าตัวแปร _count จะเปลี่ยนไปแล้วในหน่วยความจำก็ตาม (ถ้าไปพิมพ์ debug print ค่า _count ออกมาดู จะเห็นว่าเพิ่มขึ้นจริง)
+
+เหตุผลเชิงเทคนิค:
+
+-Flutter ใช้สถาปัตยกรรม declarative UI — หน้าจอจะอัปเดตก็ต่อเมื่อ Flutter Framework รู้ ว่ามีบางอย่างเปลี่ยนแปลงและต้อง rebuild เท่านั้น
+
+-setState() มีหน้าที่ 2 อย่าง: (1) รันโค้ดข้างในเพื่อเปลี่ยนค่าตัวแปร (2) แจ้งให้ Flutter Framework ทราบว่า Element ตัวนี้ "dirty" แล้ว ต้องเรียก build() ใหม่เพื่อสร้าง Widget tree ใหม่ แล้วนำไปเทียบกับ Element tree เดิมเพื่ออัปเดต RenderObject
+
+-ถ้าเขียนแค่ _count += _step; โดยไม่มี setState() ครอบ ตัวแปรจะเปลี่ยนค่าจริงในหน่วยความจำ (memory) แต่ ไม่มีสัญญาณส่งไปบอก Element ว่า dirty Flutter จึงไม่เรียก build() ใหม่ และ UI ที่แสดงอยู่ยังคงเป็น widget เดิมที่ผูกกับค่าตัวเลขก่อนหน้า
+
+-สรุปคือ state เปลี่ยน แต่ UI ไม่รู้ตัว เพราะขาดตัวกระตุ้น (trigger) ให้ framework ทำ reconciliation ใหม่ — นี่คือหัวใจของ reactive/declarative UI ที่ต่างจาก imperative UI (แบบ Native ดั้งเดิมที่เขียน label.text = "..." แล้วอัปเดตทันที)
 
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
 
+เกณฑ์หลัก: ถามว่า "Widget นี้ต้องจดจำข้อมูลที่เปลี่ยนแปลงได้ด้วยตัวเอง ระหว่างที่แสดงผลอยู่หรือไม่ (mutable state ที่ต้องอยู่ข้าม frame)"
+
+ถ้า ไม่ต้องจำอะไร — รับ parameter มาแล้ววาดตามนั้นตรงๆ ไม่มีการเปลี่ยนแปลงด้วยตัวเอง → StatelessWidget
+ถ้า ต้องจำและเปลี่ยนแปลงค่าระหว่างที่ widget แสดงอยู่ (เช่น จากการโต้ตอบของผู้ใช้ หรือ timer) → StatefulWidget
+
+ตัวอย่างจากใบงานนี้:
+
+-InfoCard	Stateless	รับ title, value, icon, color มาแสดงผลตรงๆ ไม่มีอะไรเปลี่ยนแปลงภายในตัวมันเอง ถ้าอยากเปลี่ยนค่า ต้องให้ parent ส่ง widget ใหม่มาแทน
+
+-DashboardPage, CounterPage, FormPage	Stateless	เป็นแค่ "container" ที่จัดวาง widget อื่น ไม่มี state ของตัวเอง (state จริงอยู่ใน CounterSection/GreetingForm/ClockWidget ที่อยู่ข้างใน)
+
+-CounterSection	Stateful	ต้องจำค่า _count และ _step ที่เปลี่ยนทุกครั้งที่กดปุ่ม และต้องคงอยู่ตราบใดที่ widget นี้ยังแสดงอยู่
+
+-GreetingForm	Stateful	ต้องจำ _greeting, _error และมี TextEditingController ที่ผูกกับ input ของผู้ใช้
+
+-ClockWidget	Stateful	ต้องจำ _currentTime ที่เปลี่ยนทุกวินาทีจาก Timer, และต้องมี lifecycle (initState/dispose) เพื่อจัดการ Timer
+
+-MainScreen	Stateful	ต้องจำ _selectedIndex ของ Bottom Navigation ที่เปลี่ยนเมื่อผู้ใช้แตะแท็บ
+
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
+
+เหตุผลที่ต้องทำ:
+
+Timer.periodic() ที่สร้างใน initState() จะทำงานต่อเนื่องไปเรื่อยๆ ในหน่วยความจำ ไม่ว่า widget จะยังแสดงอยู่บนหน้าจอหรือไม่ก็ตาม เพราะ Timer เป็น object ที่แยกอิสระจาก widget lifecycle
+เมื่อ widget ถูกลบออกจากหน้าจอ (เช่น สลับ Tab, pop หน้าออกจาก Navigator) Flutter จะเรียก dispose() เพื่อบอกว่า "widget นี้ตายแล้ว จะไม่ใช้อีก" แต่ ถ้าไม่ cancel timer เอง Flutter จะไม่รู้และไม่ทำให้ Timer หยุดอัตโนมัติ
+
+หากไม่ cancel Timer จะเกิดอะไรขึ้นในระยะยาว:
+
+-Memory Leak — State object (_ClockWidgetState) ที่ควรจะถูกลบออกจากหน่วยความจำ (garbage collected) จะไม่ถูกลบ เพราะ Timer callback ยังคง "อ้างอิง (reference)" ถึง State object อยู่ ทำให้ 
+Garbage Collector ไม่สามารถเก็บกวาดได้ — ยิ่งเข้า-ออกหน้านี้บ่อยเท่าไหร่ ยิ่งมี State object ค้างอยู่ในหน่วยความจำมากขึ้นเรื่อยๆ
+
+-Error setState() called after dispose() — ทุกๆ 1 วินาที Timer จะพยายามเรียก setState() บน State ที่ถูก dispose ไปแล้ว ซึ่ง Flutter จะโยน exception เตือนใน Debug Console (ในโหมด production อาจไม่ crash แต่ก็ยังเป็นพฤติกรรมที่ไม่ถูกต้อง)
+
+-สิ้นเปลือง CPU และแบตเตอรี่ — มี Timer ทำงานอยู่เบื้องหลังโดยไม่มีประโยชน์ (ไม่มีใครเห็นผลลัพธ์) ยิ่งสะสมหลาย Timer จากหลายครั้งที่เข้า-ออกหน้า ยิ่งกินทรัพยากรเครื่องมากขึ้นเรื่อยๆ จนอาจทำให้แอปช้าลงหรือค้างได้ในระยะยาว
 
 ---
 
