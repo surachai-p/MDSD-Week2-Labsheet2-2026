@@ -400,8 +400,10 @@ flutter run
 **✏️ ทดลองแก้ไข B:** เปลี่ยน `fontSize: 24` เป็น `fontSize: 48` บันทึกไฟล์และสังเกตผล
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+
+<img width="444" height="36" alt="image" src="https://github.com/user-attachments/assets/04299f06-bde8-4f19-a20b-be39a4d50a65" />
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/41a2c02a-e0c4-4c94-bee1-99ebfa640063" />
+
 ```
 ---
 
@@ -460,13 +462,20 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/4657ffc7-3d03-44a4-90a3-0a04eb0f3dd3" />
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/02e8672d-359d-4c9d-bac2-f02f3836376d" />
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/ccc7fdb5-46ce-4cb3-8cb7-cdcd1ca7dc3c" />
+<img width="1916" height="1025" alt="image" src="https://github.com/user-attachments/assets/40073205-43ea-423a-abf9-ba60b5820552" />
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/9d5b26b5-445f-4c2e-887f-09d0145bcf23" />
+
+
 ```
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/cef948c5-1334-4502-a968-5ad5d22498d3" />
+
 ```
 ---
 
@@ -580,15 +589,17 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/a3868188-9989-48bc-bd83-5ce075550353" />
+
 ```
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/d7d06090-9fee-40af-b7d7-4df1df3d534c" />
+
 ```
 ---
 
@@ -729,8 +740,11 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/beaad2e5-2858-4b87-98d2-7af73e9579d2" />
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/8d1cfd23-5fbe-42ed-b844-bec9e5f0ff25" />
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/97f9e80c-65b8-4916-83dc-958bb8755840" />
+
 ```
 
 
@@ -740,7 +754,8 @@ class _CounterSectionState extends State<CounterSection> {
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/b0a5af68-d2ef-46b3-a8ee-8187788e9530" />
+
 ```
 ---
 
@@ -869,11 +884,13 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/b9a6730b-fad4-4ead-a0d3-b025b89ba126" />
+
+``
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/7db8ccb4-3a9e-41e9-8eea-7e1e7937fa36" />
 
 ---
 
@@ -986,11 +1003,14 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/57907aa0-2318-48b8-bdb4-23d51f5690bb" />
+
+``
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
+<img width="595" height="259" alt="image" src="https://github.com/user-attachments/assets/320902bd-7abe-4d09-92ad-8d1a804817f0" />
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/fbed8f0f-9088-404a-b301-2323e7a54f9d" />
 
 ---
 
@@ -1416,8 +1436,11 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
+
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/a5801334-ee49-41a8-bec1-c525e793f014" />
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/ffa8eca4-6b70-4160-b84f-0645b995cd4f" />
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/43f62d1b-a320-4636-bd97-28e671e359f5" />
+
 ```
 ---
 
@@ -1442,20 +1465,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เปลี่ยนเป็นสี Teal (เขียวอมฟ้า) |
+| ค่า Counter | 15 |
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เป็นสี Teal |
+| ค่า Counter | 0 |
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> Hot Reload: สี เปลี่ยนเป็น Teal Counter 15 เพราะ อัปเดตเฉพาะหน้าจอ (UI) แต่ยังคงจำค่า State เดิมไว้
+> Hot Restart: สี Teal Counter 0 เพราะ เริ่มต้นแอปใหม่ทั้งหมด ทำให้ State ถูกล้างกลับเป็นค่าเริ่มต้น
 
 ---
 
@@ -1464,8 +1487,10 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 เลือกทำอย่างน้อย **2 ข้อ** จากโจทย์ด้านล่าง:
 
 **โจทย์ A (ง่าย):** เพิ่ม Tab ที่ 4 ชื่อ "About" แสดงชื่อ รหัสนักศึกษา และคณะของตัวเอง พร้อมรูป Avatar (ใช้ `CircleAvatar` กับ Text แรกของชื่อ)
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/0eb2d906-d0e4-4be1-8947-e3ae154e3873" />
 
 **โจทย์ B (กลาง):** ใน Counter Page เพิ่ม History ที่บันทึกทุกการกระทำ (เพิ่ม/ลด/Reset) พร้อมเวลา เช่น "14:30:25 — เพิ่ม 5 (รวม: 15)" แสดงเป็น List ด้านล่าง Counter และมีปุ่ม "ล้าง History"
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/d1aade22-d0f8-42a1-8078-f9244216e0a7" />
 
 **โจทย์ C (กลาง):** ใน Form Page เพิ่ม Dropdown เลือก "ภาษาของคำทักทาย" (ไทย / อังกฤษ / ญี่ปุ่น) และเปลี่ยนข้อความคำทักทายตามภาษาที่เลือก
 
@@ -1476,17 +1501,23 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 ### คำถามท้ายใบงาน
 
-**ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
+**ข้อ 1: ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?**
+**ตอบ:** Flutter ใช้ Engine วาด UI เอง (เช่น Skia/Impeller) เพื่อคุมหน้าตาให้เป๊ะเหมือนกันทุกเครื่อง ข้อดีคือลื่นไหลมาก (ไม่ต้องผ่าน Bridge) และ UI เหมือนกัน 100% ทั้ง iOS/Android ส่วนข้อเสียคือไฟล์แอปจะใหญ่ขึ้นนิดนึง และถ้า OS มีอัปเดตดีไซน์ใหม่ แอปเราจะไม่เปลี่ยนหน้าตาตามอัตโนมัติ
 
-**ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
+**ข้อ 2: อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน**
+**ตอบ:** เปรียบเหมือนการสร้างบ้าน **Widget Tree** คือ "พิมพ์เขียว" ที่กำหนดหน้าตาแอป (สร้างไว) **RenderObject Tree** คือ "ช่าง" ที่วาดลงจอจริงๆ (ทำงานหนักสุด) ส่วน **Element Tree** คือ "ผู้จัดการ" ที่คอยเทียบพิมพ์เขียวเก่า-ใหม่ เพื่อสั่งให้ช่างวาดใหม่เฉพาะจุดที่เปลี่ยน ช่วยให้แอปทำงานได้ลื่นไหล ไม่ต้องวาดใหม่ทั้งหน้า
 
-**ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
+**ข้อ 3: อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget**
+**ตอบ:** โครงสร้างคล้ายกิ่งไม้ที่ซ้อนกัน **Parent** (ตัวที่ครอบอยู่) จะเป็นคนกำหนด "ขอบเขตพื้นที่สูงสุด" ที่ลูกสามารถใช้ได้ จากนั้น **Child** (ตัวที่อยู่ข้างใน) จะประเมินขนาดเนื้อหาของตัวเองแล้วส่งกลับไปบอก Parent ทำให้ Widget จัดเรียงซ้อนกันออกมาเป็นหน้าตาแอปได้อย่างพอดี
 
-**ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
+**ข้อ 4: จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น**
+**ตอบ:** ผลคือพอกดปุ่มแล้วตัวเลขบนจอจะไม่เปลี่ยนเลย สาเหตุคือตัวแปร `_count` ได้ถูกบวกเลขเพิ่มไปแล้วในหน่วยความจำ (RAM) แต่เราไม่ได้ใส่คำสั่ง `setState()` เพื่อสะกิดบอกระบบให้วาดหน้าจอใหม่ (Rebuild) หน้าจอจึงแสดงผลข้อมูลเก่าค้างไว้อย่างนั้น
 
-**ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
+**ข้อ 5: เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้**
+**ตอบ:** ดูว่าหน้านั้นต้องเปลี่ยนข้อมูลตอนรันแอปไหม ถ้านิ่งๆ สร้างแล้วจบให้ใช้ **StatelessWidget** เช่น `InfoCard` (โชว์ข้อมูลเฉยๆ เปลี่ยนค่าไม่ได้) แต่ถ้าต้องขยับหรืออัปเดตตลอดเวลาให้ใช้ **StatefulWidget** เช่น `CounterSection` (ตัวเลขเปลี่ยนตอนกด) หรือ `ClockWidget` (วินาทีเดินตลอด)
 
-**ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
+**ข้อ 6: เหตุใดจึงต้องเรียก dispose() และยกเลิก Timer ใน ClockWidget? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?**
+**ตอบ:** `dispose()` ใช้สำหรับเคลียร์ทรัพยากรทิ้งเมื่อปิดหน้านั้นไปแล้ว หากเราไม่สั่งยกเลิก Timer ตัวนับเวลาก็จะยังแอบวิ่งเบื้องหลังและพยายามอัปเดตหน้าจอที่โดนทำลายไปแล้ว ระยะสั้นจะพ่น Error ตัวแดง (setState called after dispose) ส่วนระยะยาวจะเกิดปัญหา Memory Leak กินแรมสะสมจนเครื่องร้อนและแอปเด้งหลุด
 
 ---
 
