@@ -741,6 +741,7 @@ class _CounterSectionState extends State<CounterSection> {
 > **สิ่งที่เกิดขึ้น:** เมื่อไม่มี `setState()` ค่า `_count` เปลี่ยนในหน่วยความจำจริง แต่ Flutter ไม่รู้ว่าต้อง rebuild UI ทำให้หน้าจอยังแสดงค่าเดิม
 
 **บันทึกรูปผลการทดลอง**
+
 <img width="400" alt="ตัวแปร" src="https://github.com/user-attachments/assets/a88dedf5-8159-40fc-a0a5-ac22c65472ea" />
 
 ---
