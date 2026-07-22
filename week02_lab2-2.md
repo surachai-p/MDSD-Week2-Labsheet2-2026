@@ -749,9 +749,11 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
+`
 บันทึกรูปที่นี่
-```
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/c5d67eaf-0ee2-49b2-b4e8-b606f61170b6" />
+
+``
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
@@ -889,9 +891,11 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
-```
+`
 บันทึกรูปที่นี่
-```
+<img width="1887" height="1013" alt="image" src="https://github.com/user-attachments/assets/82fe1c83-5889-4502-84cb-630be4515c46" />
+
+``
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
 
