@@ -401,7 +401,10 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+```
+<img width="406" height="936" alt="image" src="https://github.com/user-attachments/assets/0d6701d1-4412-4cba-ae75-1412d8c37558" />
+
+
 ```
 ---
 
@@ -461,12 +464,23 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+```
+<img width="401" height="911" alt="image" src="https://github.com/user-attachments/assets/15646b59-b915-4744-8910-9482e6641469" />
+
+<img width="402" height="919" alt="image" src="https://github.com/user-attachments/assets/ce11a1a4-b5fb-4ebe-860b-237586649b7d" />
+<img width="403" height="920" alt="image" src="https://github.com/user-attachments/assets/815a2107-1e30-4949-914b-74d0757c8247" />
+<img width="403" height="915" alt="image" src="https://github.com/user-attachments/assets/1a138fc7-8481-4fd8-8ad1-f8dd76e373fb" />
+<img width="405" height="918" alt="image" src="https://github.com/user-attachments/assets/7d170104-13f5-43e2-a56f-69840d45eb5e" />
+<img width="401" height="922" alt="image" src="https://github.com/user-attachments/assets/ad2cdd27-6682-4a17-b66e-ccb1e44a309f" />
+
+
 ```
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+
+<img width="400" height="914" alt="image" src="https://github.com/user-attachments/assets/33911b85-a8be-454c-97d9-cbb9f4c7f83f" />
+
 ```
 ---
 
@@ -580,15 +594,19 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
+
 ```
-บันทึกรูปที่นี่
+```
+<img width="399" height="916" alt="image" src="https://github.com/user-attachments/assets/21dfb813-38fe-4019-b5c5-e5f1eaac2ab5" />
+
 ```
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="403" height="920" alt="image" src="https://github.com/user-attachments/assets/f1a5fd77-8912-451a-b386-6667148e75e4" />
+
 ```
 ---
 
@@ -730,7 +748,11 @@ class _CounterSectionState extends State<CounterSection> {
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+```
+<img width="401" height="922" alt="image" src="https://github.com/user-attachments/assets/1a248517-5311-404a-8cc1-070a5bb282d8" />
+<img width="400" height="913" alt="image" src="https://github.com/user-attachments/assets/5536b2bf-a70b-4a56-ba12-d058983c55ef" />
+<img width="396" height="915" alt="image" src="https://github.com/user-attachments/assets/d369843b-a30c-499d-aa66-be6d1ac33b56" />
+
 ```
 
 
@@ -740,7 +762,8 @@ class _CounterSectionState extends State<CounterSection> {
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="399" height="918" alt="image" src="https://github.com/user-attachments/assets/2fdbdfff-6208-40ea-91af-7b6c909c62ac" />
+
 ```
 ---
 
@@ -869,11 +892,16 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
+
 ```
-บันทึกรูปที่นี่
+```
+<img width="401" height="913" alt="image" src="https://github.com/user-attachments/assets/f007c981-7783-4318-8e0f-e57a77d9d2b8" />
+
 ```
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
+```
+<img width="405" height="921" alt="image" src="https://github.com/user-attachments/assets/dc59b9dc-facf-4538-9bec-d2981bb51d05" />
 
 ---
 
@@ -987,7 +1015,10 @@ import 'dart:async';
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+```
+<img width="401" height="922" alt="image" src="https://github.com/user-attachments/assets/ca507d26-520f-489e-973d-7ce7f9fcf5e2" />
+<img width="401" height="914" alt="image" src="https://github.com/user-attachments/assets/e87d437f-3593-438c-9af7-ed7e269d20fd" />
+
 ```
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
@@ -1417,46 +1448,20 @@ class _GreetingFormState extends State<GreetingForm> {
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
 ```
----
+Dashboard
 
-### การทดลองที่ 8 — Hot Reload vs Hot Restart
+<img width="401" height="911" alt="image" src="https://github.com/user-attachments/assets/ab5827ae-0479-4b63-b5c4-0d36b192240b" />
 
-**⏱ เวลา:** 10 นาที
+Counter
 
-**ขั้นตอนที่ 1** กดปุ่ม `+` ใน Counter Tab หลายครั้งจนถึง 15
+<img width="405" height="915" alt="image" src="https://github.com/user-attachments/assets/7691ca04-988e-42c0-9cd7-77d357077f05" />
 
-**ขั้นตอนที่ 2** ไปที่ไฟล์ `main.dart` แก้สีใน `MyApp`:
+From
 
-```dart
-// เปลี่ยน
-colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
-// เป็น
-colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
+<img width="401" height="919" alt="image" src="https://github.com/user-attachments/assets/b68190c9-7b04-45d2-8c78-6efa65426f23" />
+
 ```
-
-**ขั้นตอนที่ 3** บันทึก → **Hot Reload** อัตโนมัติ
-
-**ขั้นตอนที่ 4** บันทึกผลในตาราง:
-
-| | หลัง Hot Reload |
-|--|--|
-| สี Theme | |
-| ค่า Counter | |
-
-**ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
-
-| | หลัง Hot Restart |
-|--|--|
-| สี Theme | |
-| ค่า Counter | |
-
-**ขั้นตอนที่ 6** อธิบายผลลัพธ์:
-
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
-
 ---
 
 ### 🎯 โจทย์ฝึกทำ — ขยาย App ด้วยตนเอง
@@ -1464,12 +1469,21 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 เลือกทำอย่างน้อย **2 ข้อ** จากโจทย์ด้านล่าง:
 
 **โจทย์ A (ง่าย):** เพิ่ม Tab ที่ 4 ชื่อ "About" แสดงชื่อ รหัสนักศึกษา และคณะของตัวเอง พร้อมรูป Avatar (ใช้ `CircleAvatar` กับ Text แรกของชื่อ)
+```
+บันทึกผลการทดลอง
 
-**โจทย์ B (กลาง):** ใน Counter Page เพิ่ม History ที่บันทึกทุกการกระทำ (เพิ่ม/ลด/Reset) พร้อมเวลา เช่น "14:30:25 — เพิ่ม 5 (รวม: 15)" แสดงเป็น List ด้านล่าง Counter และมีปุ่ม "ล้าง History"
+<img width="398" height="914" alt="image" src="https://github.com/user-attachments/assets/b3f730c9-3154-47a2-957b-755fbeadad87" />
 
+```
 **โจทย์ C (กลาง):** ใน Form Page เพิ่ม Dropdown เลือก "ภาษาของคำทักทาย" (ไทย / อังกฤษ / ญี่ปุ่น) และเปลี่ยนข้อความคำทักทายตามภาษาที่เลือก
+```
+บันทึกผลการทดลอง
 
-**โจทย์ D (ยาก):** สร้าง Tab ใหม่ "Todo List" ที่มี TextField รับชื่องาน, ปุ่ม Add, รายการ Todo ที่กดติ๊กถูก/ลบได้ และแสดงจำนวนงานที่เหลือ
+<img width="403" height="921" alt="image" src="https://github.com/user-attachments/assets/4e9960a9-5b4b-463c-a0ce-0f992cdb83e0" />
+
+<img width="398" height="919" alt="image" src="https://github.com/user-attachments/assets/94963871-c924-4771-83e0-4d2f2b9a9a08" />
+
+```
 
 ---
 
@@ -1478,91 +1492,33 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
 
+ตอบ Flutter ใช้ Engine ของตัวเองเพื่อให้ UI เหมือนกันทุกแพลตฟอร์ม
+ข้อดี: ควบคุม UI ได้ดี ทำงานหลายแพลตฟอร์มได้ง่าย
+ข้อเสีย: ขนาดแอปใหญ่ขึ้น และเข้าถึง Native บางอย่างได้ยาก
+
 **ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
+
+ตอบ Widget Tree: โครงสร้าง UI ที่นักพัฒนาสร้าง
+Element Tree: ตัวเชื่อมระหว่าง Widget กับการแสดงผล
+RenderObject Tree: คำนวณขนาด ตำแหน่ง และวาด UI
+มีทั้ง 3 ส่วนเพื่อให้ Flutter จัดการ UI ได้รวดเร็ว
 
 **ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
 
+ตอบ Widget Tree เป็นโครงสร้างแบบ Parent-Child โดย Parent ควบคุมการจัดวาง และ Child แสดงผลภายใน Parent
+
 **ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
+
+ตอบ เมื่อเอา setState() ออก ค่าเปลี่ยนแต่หน้าจอไม่เปลี่ยน เพราะ Flutter ไม่ได้รับแจ้งให้เรียก build() ใหม่
 
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
 
+ตอบ StatelessWidget: ใช้กับข้อมูลที่ไม่เปลี่ยน เช่น InfoCard, AboutPage
+StatefulWidget: ใช้กับข้อมูลที่เปลี่ยน เช่น CounterSection, ClockWidget, GreetingForm
+
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
 
----
-
-## ข้อผิดพลาดที่พบบ่อยใน Flutter
-
-| อาการ | สาเหตุที่เป็นไปได้ | วิธีแก้ |
-|---|---|---|
-| UI ไม่อัปเดตเมื่อค่าเปลี่ยน | ลืม `setState()` | ห่อโค้ดด้วย `setState(() { ... })` |
-| `setState() after dispose()` | ไม่ check `mounted` | เพิ่ม `if (mounted)` ก่อน `setState` |
-| Widget ล้นหน้าจอ | Column ไม่มี Scroll | ห่อด้วย `SingleChildScrollView` |
-| `TextEditingController` Warning | ลืม dispose | เพิ่ม `controller.dispose()` ใน `dispose()` |
-| Hot Reload ไม่เห็นผล | แก้ `initState()` หรือ `main()` | ใช้ Hot Restart แทน |
-| `No connected devices` | ไม่ได้เปิด Emulator | เปิด Emulator ก่อนรัน `flutter run` |
-| `pub get` failed | Package ใน pubspec.yaml ผิด | ตรวจ indent และชื่อ Package |
+ตอบ ต้องใช้ dispose() เพื่อคืนทรัพยากรและยกเลิก Timer เมื่อ Widget ถูกปิด หากไม่ทำอาจเกิด Memory Leak และ Error จาก Timer ที่ยังทำงานอยู่
 
 ---
 
-## ภาคผนวก A — ติดตั้ง Flutter SDK (ถ้ายังไม่ได้ติดตั้ง)
-
-### Windows
-
-```bash
-# 1. ดาวน์โหลด Flutter SDK จาก https://flutter.dev/docs/get-started/install/windows
-# 2. แตกไฟล์ไปที่ C:\flutter (ห้ามวางใน C:\Program Files)
-# 3. เพิ่ม C:\flutter\bin ใน PATH Environment Variable
-# 4. ติดตั้ง Android SDK Command-line Tools
-#    Android Studio → SDK Manager → SDK Tools → Android SDK Command-line Tools ✓
-# 5. ยอมรับ License
-flutter doctor --android-licenses
-# 6. ตรวจสอบ
-flutter doctor
-```
-
-### macOS
-
-```bash
-# 1. ติดตั้ง Homebrew (ถ้ายังไม่มี)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# 2. ติดตั้ง Flutter
-brew install --cask flutter
-
-# 3. ยอมรับ License
-flutter doctor --android-licenses
-
-# 4. ตรวจสอบ
-flutter doctor
-```
-
----
-
-## ภาคผนวก B — สร้าง Android Emulator ด้วย Command Line (ไม่ใช้ Android Studio)
-
-```bash
-# 1. ตรวจสอบ System Images ที่ดาวน์โหลดไว้
-sdkmanager --list | grep system-images
-
-# 2. ดาวน์โหลด System Image (ถ้ายังไม่มี)
-sdkmanager "system-images;android-34;google_apis;x86_64"
-
-# 3. สร้าง Emulator ใหม่
-avdmanager create avd \
-  --name "Pixel6_API34" \
-  --package "system-images;android-34;google_apis;x86_64" \
-  --device "pixel_6"
-
-# 4. เปิด Emulator
-emulator -avd Pixel6_API34 &
-
-# 5. ตรวจสอบ
-flutter devices
-```
-
-> **ทาง Windows:** เปิด Command Prompt แบบ Administrator แล้วรันคำสั่งเดิม (ไม่มี `&` ท้าย)
-
----
-
-*ใบงานการทดลองที่ 2-2 | Flutter Framework Basics*
-*วิชา: การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่*
