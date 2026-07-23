@@ -1010,9 +1010,11 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
-```
+`
 บันทึกรูปที่นี่
-```
+<img width="1917" height="1023" alt="image" src="https://github.com/user-attachments/assets/e0b28664-c219-4dd2-8cb9-d409b93cf8f6" />
+
+``
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1440,9 +1442,11 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
+``
 บันทึกรูปที่นี่
-```
+<img width="1917" height="1023" alt="image" src="https://github.com/user-attachments/assets/0ecbcdb5-6d31-4e80-a547-ed2fc4d390ad" />
+
+``
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
