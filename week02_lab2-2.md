@@ -401,7 +401,12 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 ```
-<img width="3420" height="2196" alt="image" src="https://github.com/user-attachments/assets/adab0e9a-392c-461a-9f35-0d3c350d1ad4" />
+<img width="1710" height="1098" alt="ภาพถ่ายหน้าจอ 2569-07-23 เวลา 19 58 01" src="https://github.com/user-attachments/assets/ef6610b7-e179-4655-ad8a-54ba76b5833b" />
+<img width="1710" height="1088" alt="ภาพถ่ายหน้าจอ 2569-07-23 เวลา 20 01 31" src="https://github.com/user-attachments/assets/ccffaae6-78bf-4110-bc4a-a2c7bf2126a1" />
+<img width="1708" height="1083" alt="ภาพถ่ายหน้าจอ 2569-07-23 เวลา 20 02 44" src="https://github.com/user-attachments/assets/8a29e1af-1012-41af-95de-71a8c1cc7c95" />
+
+
+
 
 ```
 ---
