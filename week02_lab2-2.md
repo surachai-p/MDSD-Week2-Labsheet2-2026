@@ -400,7 +400,7 @@ flutter run
 **✏️ ทดลองแก้ไข B:** เปลี่ยน `fontSize: 24` เป็น `fontSize: 48` บันทึกไฟล์และสังเกตผล
 
 **บันทึกรูปผลการทดลอง**
-```
+
 <img width="532" height="608" alt="image" src="https://github.com/user-attachments/assets/e8c15af1-5386-4611-adcc-d24421ba711c" />
 
 ```
@@ -461,7 +461,7 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
+
 MainAxisAlignment.start
 
 <img width="476" height="992" alt="image" src="https://github.com/user-attachments/assets/e4427881-fc21-4798-a274-e237acc6930d" />
