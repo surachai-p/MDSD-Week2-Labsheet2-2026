@@ -460,12 +460,14 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
+
 ![ผลการทดลอง](lab2-1.png)
 ```
 บันทึกรูปที่นี่
 ```
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
+
 ![ผลการทดลอง](lab2-2.png)
 ```
 บันทึกรูปที่นี่
@@ -583,14 +585,16 @@ class InfoCard extends StatelessWidget {
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="495" height="889" alt="image" src="https://github.com/user-attachments/assets/0a1b8a39-1e32-4c99-bc74-2d0d0fcf808b" />
+
 ```
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="492" height="891" alt="image" src="https://github.com/user-attachments/assets/627d9d4b-7db7-456b-8520-85268799d5a0" />
+
 ```
 ---
 
@@ -732,7 +736,8 @@ class _CounterSectionState extends State<CounterSection> {
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="492" height="870" alt="image" src="https://github.com/user-attachments/assets/4f18737c-1114-4fcd-81c8-b5007540791e" />
+
 ```
 
 
@@ -742,7 +747,8 @@ class _CounterSectionState extends State<CounterSection> {
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="507" height="891" alt="image" src="https://github.com/user-attachments/assets/e596a300-4ee9-469d-ad7e-cb2c923c58be" />
+
 ```
 ---
 
@@ -872,7 +878,8 @@ class _GreetingFormState extends State<GreetingForm> {
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="486" height="893" alt="image" src="https://github.com/user-attachments/assets/03afbf32-3528-46a5-b054-99ee707ab750" />
+
 ```
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
@@ -1419,7 +1426,8 @@ class _GreetingFormState extends State<GreetingForm> {
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="524" height="938" alt="image" src="https://github.com/user-attachments/assets/0ce7a3a8-f6d3-4f08-a7b7-e06f629e7dd2" />
+
 ```
 ---
 
