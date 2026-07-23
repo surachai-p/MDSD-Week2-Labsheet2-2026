@@ -397,13 +397,15 @@ flutter run
 
 **✏️ ทดลองแก้ไข A:** แก้ข้อความ `'สวัสดี Flutter! 🎉'` เป็นชื่อของตัวเอง แล้วบันทึกไฟล์ (`Ctrl+S`) สังเกตว่า UI อัปเดตทันทีผ่าน **Hot Reload** โดยไม่ต้อง Restart แอป
 
+
 **✏️ ทดลองแก้ไข B:** เปลี่ยน `fontSize: 24` เป็น `fontSize: 48` บันทึกไฟล์และสังเกตผล
 
 **บันทึกรูปผลการทดลอง**
 ```
 บันทึกรูปที่นี่
-```
----
+<img width="1295" height="986" alt="image" src="https://github.com/user-attachments/assets/c014c347-20d1-493f-b68b-5def1630957b" />
+<img width="1295" height="983" alt="image" src="https://github.com/user-attachments/assets/667f5690-89b7-4b6f-a06b-2cb6aa5e177a" />
+
 
 ### การทดลองที่ 2 — Layout Widgets: Column, Row, Container
 
