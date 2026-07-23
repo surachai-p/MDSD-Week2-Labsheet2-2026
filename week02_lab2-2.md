@@ -1506,15 +1506,69 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
 
+Flutter เลือกใช้ Engine ของตัวเอง (Impeller / Skia) ในการวาดพิกเซลลงบน Canvas ของอุปกรณ์โดยตรง เพื่อตัดปัญหาความซ้ำซ้อนของการแปลงคำสั่งผ่าน Native Bridge (เช่น Bridge ใน React Native) ทำให้ Framework สามารถควบคุมการประมวลผลและการแสดงผล UI ได้อย่างสมบูรณ์ตั้งแต่ระดับพิกเซล
+
+ข้อดี
+Pixel-Perfect & Consistency: UI แสดงผลเหมือนกันเป๊ะในทุกแพลตฟอร์ม (iOS, Android, Web, Desktop) ไม่ขึ้นกับเวอร์ชัน OS ของอุปกรณ์
+
+High Performance: ทำงานได้ลื่นไหลระดับ 60fps / 120fps เพราะไม่ต้องผ่านชั้นคำสั่ง Bridge ในการเรียกใช้ Native Component
+
+ข้อเสีย
+App Size ใหญ่ขึ้น: ขนาดไฟล์ติดตั้งของแอปพลิเคชันจะใหญ่ขึ้น เนื่องจากต้องบีบอัด Rendering Engine รวมเข้าไปในตัวแอปด้วย
+
+ความรู้สึกแบบ Native (Look & Feel): หาก OS มีการอัปเดต Design System ใหม่ๆ Flutter ต้องรออัปเดต Widget ให้เลียนแบบ Native OS นั้นๆ
+
+
 **ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
+
+[ Widget Tree ]  --->  [ Element Tree ]  --->  [ RenderObject Tree ]
+ (Configuration)          (Context/Diff)             (Layout & Draw)
 
 **ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
 
+ความสัมพันธ์ระหว่าง Parent และ Child (หลักการจัดวางของ Flutter)
+Constraints Go Down: Parent ส่ง Constraints (ข้อจำกัดขนาด เช่น ความกว้าง/สูง ขั้นต่ำและขั้นสูง) ลงไปให้ Child
+
+Sizes Go Up: Child คำนวณขนาดของตัวเองภายใต้ข้อจำกัดนั้น แล้วส่ง Size (ขนาดจริงที่ต้องการ) กลับขึ้นไปบอก Parent
+
+Parent Sets Position: Parent นำขนาดของ Child มาคำนวณและกำหนด Position (ตำแหน่งพิกัด X, Y บนหน้าจอ) ให้แก่ Child
+
+Data & Events: Parent ส่งข้อมูลผ่าน Constructor/Parameters ลงไปหา Child (Data flow down) ส่วน Child ส่งสัญญาณกลับขึ้นมาหา Parent ผ่าน Event Callbacks เช่น onPressed (Event flow up)
+
+
 **ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
+
+ผลที่เกิดขึ้น: เมื่อกดปุ่ม ค่าตัวแปรในหน่วยความจำจะเปลี่ยนจริง (เช่น ค่า _count เพิ่มขึ้น) แต่ UI บนหน้าจอจะไม่ยอมเปลี่ยนตาม (ตัวเลขค้างที่เดิม)
+
+เหตุผลเชิงเทคนิค:
+ใน StatefulWidget การเปลี่ยนแปลงค่าตัวแปรเพียงอย่างเดียว ไม่ได้ทำให้ Framework ทำการวาดหน้าจอใหม่ การเรียกคำสั่ง setState() คือการส่งสัญญาณไปติดธง (Mark as Dirty) ให้แก่ Element ของ Widget นั้น เพื่อแจ้งเตือน Framework ว่า "ให้จัดคิวเรียกฟังก์ชัน build() ของ Widget นี้ใหม่อีกครั้งในการรัน Frame ถัดไป"
+
+ดังนั้น เมื่อลบ setState() ออก Framework จึงไม่ทราบว่าข้อมูลเปลี่ยน จึงไม่มีการเรียก build() ใหม่ UI บนหน้าจอจึงแสดงผลค่าเก่าค้างไว้
+
 
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
 
+หลักการตัดสินใจ
+StatelessWidget: ใช้เมื่อ UI นั้น เน้นการแสดงผลอย่างเดียว (Static UI) ข้อมูลภายในไม่มีวันเปลี่ยนด้วยตัวเอง รับค่าผ่าน Parameter มาโชว์อย่างไรก็โชว์อยู่อย่างนั้น
+
+StatefulWidget: ใช้เมื่อ UI นั้น มีการปฏิสัมพันธ์กับผู้ใช้ (Dynamic/Interactive UI) มีข้อมูลภายในที่สามารถเปลี่ยนแปลงได้ตลอดเวลา และเมื่อเปลี่ยนแล้วต้องสั่งวาดหน้าจอใหม่ทันที
+
+ตัวอย่างจากใบงาน
+
+StatelessWidget  InfoCard  รับค่า title, value, icon มาสร้างเป็นกล่องการ์ดแสดงผลเฉยๆ ไม่มี State ภายในที่ต้องอัปเดตเปลี่ยนเอง
+
+
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
+
+เหตุผลที่ต้องสั่ง dispose() และยกเลิก Timer
+Timer.periodic ทำงานอยู่บนวงรอบการทำงาน (Background Thread/Event Loop) แยกต่างหาก หาก Widget นั้นถูกทำลายไปแล้ว (เช่น ผู้ใช้กดเปลี่ยนหน้า) แต่ไม่ได้สั่ง _timer?.cancel() ตัว Timer จะยังคงทำงานและพยายามเรียก setState() ส่งไปยัง Widget ที่ไม่มีอยู่อีกแล้วในระบบ
+
+ผลกระทบในระยะยาวหากไม่ทำ
+Memory Leak (หน่วยความจำรั่วไหล): ตัว Timer ที่ยังค้างอยู่จะถือการอ้างอิง (Reference) ของวัตถุ State นั้นไว้ ทำให้ Garbage Collector (GC) ไม่สามารถคืนพื้นที่หน่วยความจำได้
+
+Resource Waste & Battery Drain: แอปพลิเคชันจะทำงานหนักขึ้นเรื่อยๆ เพราะมี Timer ค้างสะสม ทำการคำนวณเวลาเบื้องหลังตลอดเวลา ส่งผลให้กินแบตเตอรี่และ RAM
+
+App Crash / Exception Error: เมื่อ Timer พยายามสั่ง setState() กับ Widget ที่ปิดไปแล้ว จะเกิด Error: setState() called after dispose() ซึ่งทำให้แอปทำงานผิดปกติหรือเด้งดับได้ครับ
 
 ---
 
