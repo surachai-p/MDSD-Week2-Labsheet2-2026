@@ -401,9 +401,11 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 ```
+
 บันทึกรูปที่นี่
 ```
 ---
+<img width="363" height="662" alt="image" src="https://github.com/user-attachments/assets/6823d8a2-f92b-4532-8e2c-6968fc5746d4" />
 
 ### การทดลองที่ 2 — Layout Widgets: Column, Row, Container
 
@@ -463,12 +465,22 @@ flutter run
 ```
 บันทึกรูปที่นี่
 ```
+.start
+<img width="365" height="692" alt="image" src="https://github.com/user-attachments/assets/f3cb8128-2653-4b64-baab-11a8c857f88f" />
+.end
+<img width="370" height="702" alt="image" src="https://github.com/user-attachments/assets/d29b6aaa-d85a-4f4b-afa1-b4adade3173a" />
+.spaceBetween
+<img width="366" height="677" alt="image" src="https://github.com/user-attachments/assets/c8b8a5b6-4f4c-4c9f-86df-9bf01d8640de" />
+.spaceEvenly
+<img width="356" height="687" alt="image" src="https://github.com/user-attachments/assets/397e3b3c-27ec-441d-b40d-4405471abcda" />
+
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
 ```
 บันทึกรูปที่นี่
 ```
----
+---<img width="320" height="725" alt="image" src="https://github.com/user-attachments/assets/4214fe67-79c3-4dd2-a88e-71febb6c4fde" />
+
 
 ### การทดลองที่ 3 — StatelessWidget แรก
 
@@ -583,6 +595,7 @@ class InfoCard extends StatelessWidget {
 ```
 บันทึกรูปที่นี่
 ```
+<img width="308" height="726" alt="image" src="https://github.com/user-attachments/assets/692a6902-429f-40c4-acdf-d09009135832" />
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
@@ -590,6 +603,8 @@ class InfoCard extends StatelessWidget {
 ```
 บันทึกรูปที่นี่
 ```
+<img width="317" height="723" alt="image" src="https://github.com/user-attachments/assets/dd1886ef-dd84-4372-977e-ebdf5f189adf" />
+
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
@@ -732,6 +747,8 @@ class _CounterSectionState extends State<CounterSection> {
 ```
 บันทึกรูปที่นี่
 ```
+<img width="317" height="727" alt="image" src="https://github.com/user-attachments/assets/dc753649-0406-468a-af21-3cf4e19c97cd" />
+<img width="318" height="727" alt="image" src="https://github.com/user-attachments/assets/09345210-b2e6-4d8a-a83e-df4a9bf52330" />
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
@@ -741,7 +758,10 @@ class _CounterSectionState extends State<CounterSection> {
 **บันทึกรูปผลการทดลอง**
 ```
 บันทึกรูปที่นี่
+เลขบนหน้าจอไม่เปลี่ยน
 ```
+<img width="317" height="727" alt="image" src="https://github.com/user-attachments/assets/34e79d11-863b-4637-8ec1-30dc22773f36" />
+
 ---
 
 ### การทดลองที่ 5 — StatefulWidget: Form และ Text Input
@@ -872,8 +892,10 @@ class _GreetingFormState extends State<GreetingForm> {
 ```
 บันทึกรูปที่นี่
 ```
+<img width="318" height="735" alt="image" src="https://github.com/user-attachments/assets/a24359f0-08be-431d-b72f-3121f538bdbe" />
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
+<img width="307" height="737" alt="image" src="https://github.com/user-attachments/assets/24010936-b4e4-4636-9fdc-b860b3069696" />
 
 ---
 
@@ -989,6 +1011,7 @@ import 'dart:async';
 ```
 บันทึกรูปที่นี่
 ```
+<img width="332" height="727" alt="image" src="https://github.com/user-attachments/assets/ea168f98-39ad-4096-a1ab-6b958129dd90" />
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1419,6 +1442,10 @@ class _GreetingFormState extends State<GreetingForm> {
 ```
 บันทึกรูปที่นี่
 ```
+<img width="306" height="715" alt="image" src="https://github.com/user-attachments/assets/645998e2-004f-4888-833a-fc0853cc3cd2" />
+<img width="325" height="717" alt="image" src="https://github.com/user-attachments/assets/16c5f0b6-e21e-48f9-a1ef-9dca27416f8b" />
+<img width="311" height="730" alt="image" src="https://github.com/user-attachments/assets/4c317a69-dad5-4977-96c8-fa4fbee344a4" />
+
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
@@ -1442,20 +1469,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | Colors.teal |
+| ค่า Counter | 15 |
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
-
+| สี Theme | Colors.teal |
+| ค่า Counter | 0 |
+รีโหลดแล้วกลับไปหน้าDashboard
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> Hot Reload: สี _Colors.teal_ Counter ____15______ เพราะ Hot Reload แค่แทรกโค้ดที่แก้ไขใหม่เข้าไปในโปรแกรมที่กำลังรันอยู่ inject การเปลี่ยนแปลงของ source code เข้าไปใน Dart VM โดยไม่ได้ล้าง State เดิมทิ้ง
+> Hot Restart: สี _____Colors.teal_____ Counter ____0______ เพราะ Hot Restart จะรีสตาร์ทแอปใหม่ทั้งหมด โดยจะล้าง State ทั้งหมดทิ้งและเรียก main() ใหม่ตั้งแต่ต้น
 
 ---
 
@@ -1471,22 +1498,48 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **โจทย์ D (ยาก):** สร้าง Tab ใหม่ "Todo List" ที่มี TextField รับชื่องาน, ปุ่ม Add, รายการ Todo ที่กดติ๊กถูก/ลบได้ และแสดงจำนวนงานที่เหลือ
 
+<img width="313" height="715" alt="image" src="https://github.com/user-attachments/assets/5abbb77b-0fc9-407b-8cf5-f60e2da84969" />
+<img width="317" height="311" alt="image" src="https://github.com/user-attachments/assets/4c1bb5f3-e9e7-4dbb-97f3-653dfa335d59" />
+<img width="312" height="716" alt="image" src="https://github.com/user-attachments/assets/7c9080bd-560b-495a-b29a-27fbf52bbe40" />
+
 ---
 
 
-### คำถามท้ายใบงาน
+# คำถามท้ายใบงาน
 
 **ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
+---
+Flutter วาดหน้าจอด้วยเครื่องมือของตัวเอง แทนที่จะใช้ส่วนประกอบของแต่ละระบบปฏิบัติการ 
+เพื่อให้ควบคุมทุกจุดบนหน้าจอได้เองและได้หน้าตาเหมือนกันทุกเครื่อง เขียนโค้ดครั้งเดียวใช้ได้ทุกที่
+ข้อดีคือหน้าตาสม่ำเสมอ ทำลูกเล่นเคลื่อนไหวได้ละเอียด วาดภาพเร็ว
+ข้อเสียคือแอปมีขนาดใหญ่กว่า และหน้าตาไม่ปรับตามสไตล์ของเครื่องโดยอัตโนมัติ
 
 **ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
+---
+Widget Tree คือพิมพ์เขียวที่เขียนในโค้ด บอกว่าหน้าจอควรมีอะไรบ้าง สร้างใหม่ทุกครั้งที่วาดใหม่
+Element Tree เก็บข้อมูล state และตำแหน่งของแต่ละ Widget ไว้ อยู่ได้นานกว่า Widget ทำให้ state ไม่หายตอนวาดใหม่
+RenderObject Tree รับผิดชอบคำนวณขนาด ตำแหน่ง และวาดจริงลงจอ
+ต้องมีทั้งสามส่วนเพราะแยกหน้าที่กันชัดเจน ทำให้ Flutter อัปเดตเฉพาะจุดที่เปลี่ยนได้ ไม่ต้องคำนวณใหม่ทั้งหมดทุกครั้ง
 
 **ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
+---
+Widget Tree คือโครงสร้างที่แสดงว่า Widget แต่ละตัวซ้อนกันอย่างไร Widget แม่จะกำหนดว่ามี Widget ลูกตัวไหนอยู่ข้างในผ่าน child หรือ children
+Widget แม่ส่งข้อมูลหรือขนาดที่จำกัดลงไปให้ลูก ส่วนลูกจะบอกขนาดของตัวเองกลับขึ้นไปให้แม่จัดวาง ทำให้ UI ของ Flutter เกิดจากการเอา Widget เล็กๆ มาประกอบกันเป็น Widget ใหญ่ขึ้นเรื่อยๆ
 
 **ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
+---
+ผลที่เกิดคือค่า _count เปลี่ยนจริงในหน่วยความจำ แต่หน้าจอยังแสดงค่าเดิม ไม่อัปเดตให้เห็น
+เพราะ Flutter จะวาดหน้าจอใหม่ก็ต่อเมื่อมีการเรียก setState เท่านั้น ถ้าไม่เรียก Framework จะไม่รู้ว่า state เปลี่ยน จึงไม่สั่งวาดใหม่ ทั้งที่ตัวแปรเปลี่ยนไปแล้ว
 
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
+---
+ถ้า Widget แสดงข้อมูลคงที่ ไม่มีอะไรเปลี่ยนระหว่างใช้งาน ให้ใช้ StatelessWidget เพราะเบากว่าถ้า Widget ต้องจำค่าที่เปลี่ยนไปตามการกระทำของผู้ใช้หรือเวลา ให้ใช้ StatefulWidget
+ในใบงานนี้ InfoCard เป็น StatelessWidget เพราะแค่รับค่ามาแสดงผล ส่วน CounterSection, ClockWidget และ GreetingForm เป็น StatefulWidget เพราะต้องเก็บค่าที่เปลี่ยนไปเรื่อยๆ 
+เช่นตัวเลข เวลา หรือข้อความที่พิมพ์
 
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
+---
+ต้องเรียก dispose และยกเลิก Timer เพราะ Timer จะทำงานต่อไปเรื่อยๆ แม้ Widget จะถูกปิดไปแล้ว ถ้าไม่ยกเลิก Timer จะพยายามเรียก setState บน Widget ที่ไม่มีอยู่แล้ว ทำให้เกิด error ได้ในระยะยาวจะเกิด memory leak เพราะ Timer ยังค้างทำงานและอ้างอิงถึง Widget เดิมอยู่ Garbage Collector จึงเก็บหน่วยความจำส่วนนั้นคืนไม่ได้ ยิ่งเข้าออกหน้านี้บ่อยเท่าไหร่ ก็จะมี Timer ค้างอยู่หลายตัว ทำให้แอปกินหน่วยความจำมากขึ้นเรื่อยๆ จนช้าลงหรือแครชได้
 
 ---
 
