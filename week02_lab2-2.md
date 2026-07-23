@@ -1507,7 +1507,7 @@ RenderObject Tree ตัววาดจริง (Painter) คำนวณขน
 เหตุผลที่ต้องมี 3 ส่วน แยกหน้าที่เพื่อ Performance ให้ Flutter สั่งวาดใหม่เฉพาะจุดที่เปลี่ยน ไม่ต้องวาดใหม่หมดทั้งหน้าจอ
 
 **ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
-โครงสร้าง: เป็นต้นไม้ลำดับชั้น Hierarchical Tree เริ่มจาก Root MaterialApp แตกกิ่งก้านลงไปจนถึง Leaf Widget Text, Icon
+โครงสร้าง เป็นต้นไม้ลำดับชั้น Hierarchical Tree เริ่มจาก Root MaterialApp แตกกิ่งก้านลงไปจนถึง Leaf Widget Text, Icon
 ความสัมพันธ์
 ส่งข้อมูลลง: Parent ส่งข้อมูล/Configuration ไปให้ Child ผ่าน Parameter
 คำนวณขนาด: Parent ส่งข้อจำกัด Constraints ลงไป Child ส่งขนาดจริง Size กลับขึ้นมา Parent กำหนดตำแหน่ง Position
@@ -1518,9 +1518,9 @@ RenderObject Tree ตัววาดจริง (Painter) คำนวณขน
 
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
 StatelessWidget ใช้กับ UI ที่ นิ่ง/คงที่ ไม่เปลี่ยนตามการกระทำของผู้ใช้
-ตัวอย่าง: InfoCard (รับค่ามาแสดงผลอย่างเดียว)
+ตัวอย่าง InfoCard (รับค่ามาแสดงผลอย่างเดียว)
 StatefulWidget ใช้กับ UI ที่ มีการเปลี่ยนแปลงข้อมูล/State ภายในตัว
-ตัวอย่าง: CounterPage ค่า _count เปลี่ยนตามการกดปุ่ม หรือ ClockWidget เวลาเปลี่ยนทุกวินาที
+ตัวอย่าง CounterPage ค่า _count เปลี่ยนตามการกดปุ่ม หรือ ClockWidget เวลาเปลี่ยนทุกวินาที
 
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
 เหตุผล เพื่อ คืนทรัพยากร (Resource Cleanup) แก่ระบบเมื่อ Widget ถูกลบออกจากหน้าจอ
