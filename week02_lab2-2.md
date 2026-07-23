@@ -401,7 +401,8 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="532" height="608" alt="image" src="https://github.com/user-attachments/assets/e8c15af1-5386-4611-adcc-d24421ba711c" />
+
 ```
 ---
 
@@ -461,12 +462,30 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+MainAxisAlignment.start
+
+<img width="476" height="992" alt="image" src="https://github.com/user-attachments/assets/e4427881-fc21-4798-a274-e237acc6930d" />
+
+MainAxisAlignment.end
+
+<img width="475" height="990" alt="image" src="https://github.com/user-attachments/assets/3969d5b6-fe1c-4cbe-bce9-c1c6488d5210" />
+
+MainAxisAlignment.spaceBetween
+
+<img width="477" height="982" alt="image" src="https://github.com/user-attachments/assets/148cddcb-8ca1-47e1-b411-834fcf6d041c" />
+
+MainAxisAlignment.spaceEvenly
+
+<img width="477" height="992" alt="image" src="https://github.com/user-attachments/assets/c4ff7f4e-09d8-4f18-b2ef-e0237ff13907" />
+
+
+
 ```
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="475" height="982" alt="image" src="https://github.com/user-attachments/assets/f96254dc-7dff-4047-9380-3d07294fb51e" />
+
 ```
 ---
 
