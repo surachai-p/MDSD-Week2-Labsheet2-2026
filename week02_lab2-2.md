@@ -1458,21 +1458,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme |เขียว|
+| ค่า Counter |15|
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme |เขียว|
+| ค่า Counter |0|
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
-
+> Hot Reload: สี เขียว Counter 15 เพราะ อัปเดตแค่หน้าตาไม่ได้ล้างความจำ ค่าเลขที่เคยกดไว้เลยยังอยู่
+> Hot Restart: สี เขียว Counter 0 เพราะ ระบบรีบูตแอปใหม่ทั้งหมด ความจำโดนล้าง ค่าเลยกลับมานับที่ศูนย์ใหม่
 ---
 
 ### 🎯 โจทย์ฝึกทำ — ขยาย App ด้วยตนเอง
