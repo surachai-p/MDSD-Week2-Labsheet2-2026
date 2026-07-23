@@ -400,9 +400,10 @@ flutter run
 **✏️ ทดลองแก้ไข B:** เปลี่ยน `fontSize: 24` เป็น `fontSize: 48` บันทึกไฟล์และสังเกตผล
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="375" height="872" alt="image" src="https://github.com/user-attachments/assets/b50ba011-c4f1-4c3f-be7d-f845d6dba854" />
+
+
 ---
 
 ### การทดลองที่ 2 — Layout Widgets: Column, Row, Container
@@ -460,14 +461,14 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="382" height="895" alt="image" src="https://github.com/user-attachments/assets/ae6381f3-3f5d-4e40-ae53-f7f309bbd42e" />
+
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="367" height="861" alt="image" src="https://github.com/user-attachments/assets/1c72a7f1-a4d3-4692-8824-2d7b43be0aea" />
+
 ---
 
 ### การทดลองที่ 3 — StatelessWidget แรก
@@ -580,16 +581,17 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="446" height="842" alt="image" src="https://github.com/user-attachments/assets/ebf1bf64-714d-4faa-9239-2dda46e03fea" />
+
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+
+<img width="440" height="856" alt="image" src="https://github.com/user-attachments/assets/6538a3c5-5c08-4df0-b957-4687988bb913" />
+
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
@@ -729,9 +731,12 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+
+
+<img width="395" height="747" alt="image" src="https://github.com/user-attachments/assets/a7a3ecb2-5287-4429-a497-09f48520baf2" />
+
+
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
@@ -739,9 +744,10 @@ class _CounterSectionState extends State<CounterSection> {
 > **สิ่งที่เกิดขึ้น:** เมื่อไม่มี `setState()` ค่า `_count` เปลี่ยนในหน่วยความจำจริง แต่ Flutter ไม่รู้ว่าต้อง rebuild UI ทำให้หน้าจอยังแสดงค่าเดิม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="731" height="767" alt="image" src="https://github.com/user-attachments/assets/06ead363-203f-4c8a-85a4-6817d2c31fa5" />
+
+
 ---
 
 ### การทดลองที่ 5 — StatefulWidget: Form และ Text Input
@@ -869,9 +875,9 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="377" height="757" alt="image" src="https://github.com/user-attachments/assets/6756c45f-4b6c-4ec5-910b-f5b92e04a120" />
+
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
 
@@ -986,9 +992,9 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="1465" height="816" alt="image" src="https://github.com/user-attachments/assets/fc5eb6a5-4189-4271-b147-13ea98e3fe48" />
+
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1416,9 +1422,19 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+**dashboard**
+<img width="412" height="731" alt="image" src="https://github.com/user-attachments/assets/7d5da409-bd37-4d64-a565-3dd9cfa81f98" />
+
+**counter**
+<img width="387" height="747" alt="image" src="https://github.com/user-attachments/assets/c1e7a7d4-484c-4be8-913e-029215106e7c" />
+
+
+**form**
+<img width="390" height="745" alt="image" src="https://github.com/user-attachments/assets/3f287077-0810-4dcf-97aa-dd82f71c5bfe" />
+
+
+
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
@@ -1442,21 +1458,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme |เขียว|
+| ค่า Counter |15|
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme |เขียว|
+| ค่า Counter |0|
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
-
+> Hot Reload: สี เขียว Counter 15 เพราะ อัปเดตแค่หน้าตาไม่ได้ล้างความจำ ค่าเลขที่เคยกดไว้เลยยังอยู่
+> Hot Restart: สี เขียว Counter 0 เพราะ ระบบรีบูตแอปใหม่ทั้งหมด ความจำโดนล้าง ค่าเลยกลับมานับที่ศูนย์ใหม่
 ---
 
 ### 🎯 โจทย์ฝึกทำ — ขยาย App ด้วยตนเอง
@@ -1478,15 +1493,59 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
 
+**ตอบ** เพราะอยากคุมหน้าจอเอง  ไม่ต้องไปพึ่งปุ่มหรือข้อความของระบบปฏิบัติการมือถือ
+
+ข้อดี หน้าตาแอปเหมือน ทั้งบน iOS และ Android ไม่เพี้ยน ทำงานลื่นไหลและเร็วกว่า 
+
+ข้อเสีย ขนาดไฟล์แอปเริ่มต้นจะใหญ่กว่าปกติ เพราะต้องพก Engine วาดภาพของตัวเองติดแอปไปด้วย
+
 **ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
+
+**ตอบ** Widget Tree  เป็นแค่ใบสั่งงาน ที่บอกว่าอยากให้หน้าจอมีหน้าตาแบบไหน 
+
+
+Element Tree  ตัวกลางที่คอยจำตำแหน่งและสถานะ เอาไว้คอยเทียบว่า Widget มีอะไรเปลี่ยนไปบ้าง จะได้ไม่ต้องสร้างใหม่ทั้งหมด
+
+
+RenderObject Tree คำนวณขนาดและวาดพิกเซลจริงลงบนหน้าจอ 
+
+
+ที่ต้องมี เพราะความเร็วและประหยัดเครื่อง ถ้าไม่มีตัวกลางคอยคัดกรอง แล้วเราต้องวาด UI จริงใหม่ทั้งหมดทุกครั้งที่ข้อความเปลี่ยน แอปจะกระตุก
+
+
 
 **ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
 
+**ตอบ** โครงสร้าง Widget Tree  คือการเอาชิ้นส่วน Widget มาต่อกันเป็นลำดับชั้นเหมือนกิ่งก้านต้นไม้ โดยเริ่มจาก Root ใหญ่สุด 
+
+ความสัมพันธ์ Parent-Child   Parent (ตัวแม่) อยู่ชั้นบน มีหน้าที่ส่งข้อมูล ไหลลงไปให้ Child ตัวลูก
+
+Child (ตัวลูก) อยู่ชั้นล่าง มีหน้าที่เอาข้อมูลที่แม่ส่งมาไปแสดงผล และถ้าเกิดเหตุการณ์อะไรขึ้น  ลูกจะส่ง Event ไปให้ ตัวแม่เพื่อให้จัดการต่อ
+
 **ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
+
+**ตอบ** ผลที่เกิดขึ้น พอกดปุ่มบวกแล้ว ตัวเลขบนหน้าจอไม่ยอมเปลี่ยนเลย แต่ถ้าไปแอบดูในระบบ ความจริงคือตัวแปร _count มีค่าบวกเพิ่มขึ้นไปแล้ว
+
+เหตุผลเชิงเทคนิค  ตัวแปรเปลี่ยนแต่ Flutter ไม่รู้ เพราะไม่มี setState ไปแจ้งเตือน ระบบจึงไม่ได้เรียกฟังก์ชัน build เพื่อวาด UI ใหม่ หน้าจอเลยแสดงค่าเดิมค้างไว้
+
 
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
 
+**ตอบ**
+วิธีตัดสินใจ ถามว่า  UI นี้ต้องเปลี่ยนหน้าตาตัวเองตอนแอปทำงานไหม
+ถ้า ไม่เปลี่ยน ใช้ StatelessWidget
+ถ้า เปลี่ยนได้เอง ใช้ StatefulWidget
+
+ตัวอย่าง
+InfoCard (Stateless)  กรอบโชว์ข้อมูลอยู่นิ่งๆ ไม่ขยับ
+CounterSection (Stateful)  ตัวนับเลขที่ตัวเลขตรงกลางต้องเปลี่ยนไปมาตามปุ่มกดตลอดเวลา
+
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
+
+**ตอบ**
+
+เพราะ ถ้าไม่ยกเลิก Timer จะยังแอบทำงานค้างอยู่เบื้องหลัง แม้เราจะปิดหน้านั้นไปแล้ว
+ผลเสียในระยะยาว  เกิดภาวะหน่วยความจำรั่วไหลกินแรมไปเรื่อยๆ จนเครื่องหน่วง แอปกระตุก และเด้งหลุด
 
 ---
 
