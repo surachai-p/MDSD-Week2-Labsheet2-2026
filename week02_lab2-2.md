@@ -401,9 +401,7 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 ```
-<img width="3420" height="2196" alt="image" src="https://github.com/user-attachments/assets/08a013ec-4e16-43e8-b118-fa756ea7aee9" />
-<img width="3420" height="2176" alt="image" src="https://github.com/user-attachments/assets/f062ba9b-3373-4867-8b0e-52de669f688c" />
-<img width="3416" height="2166" alt="image" src="https://github.com/user-attachments/assets/c3aa4e4d-49da-43c0-b9c8-d2293377c356" />
+<img width="3420" height="2196" alt="image" src="https://github.com/user-attachments/assets/ec114379-952d-44c6-b78d-9ca592d45519" />
 
 ```
 ---
