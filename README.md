@@ -1,4 +1,4 @@
-# Week02 Lab 2-2 — Flutter Framework Basics
+<img width="2520" height="1233" alt="image" src="https://github.com/user-attachments/assets/8090454a-7351-4671-b892-7c7423cf257e" /># Week02 Lab 2-2 — Flutter Framework Basics
 
 โปรเจกต์ Flutter สำหรับใบงานการทดลองที่ 2-2 (รายละเอียดใบงานเต็มดูที่ [week02_lab2-2.md](week02_lab2-2.md))
 
@@ -56,7 +56,10 @@ flutter run -d chrome
 
 ### ✅ โจทย์ฝึกทำ (เลือก 2 ข้อ)
 - **โจทย์ A** — เพิ่มแท็บที่ 4 "About" แสดงชื่อ/รหัสนักศึกษา/คณะ พร้อม `CircleAvatar` ตัวอักษรแรกของชื่อ
+<img width="1058" height="518" alt="image" src="https://github.com/user-attachments/assets/bb575845-8e0c-4ade-b435-e959b96d2ad7" />
+
 - **โจทย์ D** — เพิ่มแท็บที่ 5 "Todo List" มี `TextField` รับชื่องาน, ปุ่ม Add, ติ๊กถูก/ลบงานได้ และแสดงจำนวนงานที่เหลือ
+<img width="1055" height="544" alt="image" src="https://github.com/user-attachments/assets/5df89a79-07e7-4bcc-8f0c-5a9436a45e17" />
 
 #### โค้ดส่วน Todo List (โจทย์ D) ทำงานยังไง
 
