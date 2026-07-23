@@ -1,12 +1,14 @@
 # ใบงานการทดลองที่ 2-2
+
 # Flutter Framework Basics
+
 ### วิชา: การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่
 
-| | |
-|--|--|
-| **สัปดาห์ที่** | 2 |
-| **ใบงานที่** | 2-2 จาก 2 |
-| **เวลา** | 2 ชั่วโมง 30 นาที |
+|                |                                                    |
+| -------------- | -------------------------------------------------- |
+| **สัปดาห์ที่** | 2                                                  |
+| **ใบงานที่**   | 2-2 จาก 2                                          |
+| **เวลา**       | 2 ชั่วโมง 30 นาที                                  |
 | **เครื่องมือ** | VS Code + Flutter SDK (ติดตั้งแล้วจากสัปดาห์ที่ 1) |
 
 ---
@@ -34,6 +36,7 @@ flutter doctor
 ```
 
 **ผลที่ต้องการเห็น (อย่างน้อย):**
+
 ```
 [✓] Flutter (Channel stable, 3.x.x, ...)
 [✓] Android toolchain
@@ -46,6 +49,7 @@ flutter doctor
 ### ตรวจสอบ VS Code Extensions
 
 เปิด VS Code → Extensions (Ctrl+Shift+X) → ค้นหาและติดตั้ง:
+
 - **Flutter** (by Dart Code) — ต้องมี
 - **Dart** (by Dart Code) — ต้องมี
 
@@ -77,6 +81,7 @@ Flutter แตกต่างจาก Framework อื่นตรงที่ 
 ```
 
 **ผลที่ได้จาก Architecture นี้:**
+
 - UI เหมือนกันทุก Pixel บนทุก Platform
 - ไม่มี Bridge ระหว่าง Dart กับ Native — Performance ดี
 - Flutter รองรับ Android, iOS, Web, Desktop จาก Codebase เดียว
@@ -317,10 +322,12 @@ code .
 **ขั้นตอนที่ 3** เปิด Emulator
 
 วิธีที่ 1 — ผ่าน VS Code:
+
 - กด `Ctrl+Shift+P` → พิมพ์ `Flutter: Launch Emulator`
 - เลือก Emulator ที่ต้องการ
 
 วิธีที่ 2 — ผ่าน Terminal:
+
 ```bash
 flutter emulators --launch <emulator_id>
 # หรือดู emulator ที่มีก่อน
@@ -400,9 +407,8 @@ flutter run
 **✏️ ทดลองแก้ไข B:** เปลี่ยน `fontSize: 24` เป็น `fontSize: 48` บันทึกไฟล์และสังเกตผล
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![alt text](image.png)
+
 ---
 
 ### การทดลองที่ 2 — Layout Widgets: Column, Row, Container
@@ -460,14 +466,11 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![alt text](image-3.png)
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![alt text](image-2.png)
+
 ---
 
 ### การทดลองที่ 3 — StatelessWidget แรก
@@ -580,16 +583,12 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![alt text](image-5.png)
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
-
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![alt text](image-4.png)
+
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
@@ -729,19 +728,15 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
-
+![alt text](image-6.png)
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
 
 > **สิ่งที่เกิดขึ้น:** เมื่อไม่มี `setState()` ค่า `_count` เปลี่ยนในหน่วยความจำจริง แต่ Flutter ไม่รู้ว่าต้อง rebuild UI ทำให้หน้าจอยังแสดงค่าเดิม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![alt text](image-7.png)
+
 ---
 
 ### การทดลองที่ 5 — StatefulWidget: Form และ Text Input
@@ -869,11 +864,11 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+![alt text](image-8.png)
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
+![alt text](image-9.png)
 
 ---
 
@@ -986,9 +981,10 @@ import 'dart:async';
 
 **ขั้นตอนที่ 4** บันทึกและดูผล — เวลาควรอัปเดตทุกวินาที
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1416,9 +1412,8 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+![alt text](<Recording 2026-07-23 221340.gif>)
+
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
@@ -1440,67 +1435,88 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 **ขั้นตอนที่ 4** บันทึกผลในตาราง:
 
-| | หลัง Hot Reload |
-|--|--|
-| สี Theme | |
-| ค่า Counter | |
+|             | หลัง Hot Reload                 |
+| ----------- | ------------------------------- |
+| สี Theme    | เปลี่ยนเป็นสี Teal (เขียวอมฟ้า) |
+| ค่า Counter | เท่าเดิม (15)                   |
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
-| | หลัง Hot Restart |
-|--|--|
-| สี Theme | |
-| ค่า Counter | |
+|             | หลัง Hot Restart                |
+| ----------- | ------------------------------- |
+| สี Theme    | สี Teal (เขียวอมฟ้า) เหมือนเดิม |
+| ค่า Counter | รีเซ็ตกลับเป็น 0                |
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
-
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+Hot Reload: สี เปลี่ยนเป็น Teal Counter เท่าเดิม (15) เพราะ Hot Reload จะวาด UI (หน้าตาแอป) ใหม่ตามโค้ดที่แก้ แต่ยังคงเก็บค่าตัวแปร State เดิมในหน่วยความจำเอาไว้
+Hot Restart: สี เป็น Teal Counter รีเซ็ตเป็น 0 เพราะ Hot Restart จะปิดแล้วเปิดแอปใหม่ทั้งหมด ทำให้ค่า State เดิมในหน่วยความจำถูกล้างทิ้งไปด้วย
 
 ---
 
 ### 🎯 โจทย์ฝึกทำ — ขยาย App ด้วยตนเอง
 
 เลือกทำอย่างน้อย **2 ข้อ** จากโจทย์ด้านล่าง:
-
-**โจทย์ A (ง่าย):** เพิ่ม Tab ที่ 4 ชื่อ "About" แสดงชื่อ รหัสนักศึกษา และคณะของตัวเอง พร้อมรูป Avatar (ใช้ `CircleAvatar` กับ Text แรกของชื่อ)
-
-**โจทย์ B (กลาง):** ใน Counter Page เพิ่ม History ที่บันทึกทุกการกระทำ (เพิ่ม/ลด/Reset) พร้อมเวลา เช่น "14:30:25 — เพิ่ม 5 (รวม: 15)" แสดงเป็น List ด้านล่าง Counter และมีปุ่ม "ล้าง History"
-
 **โจทย์ C (กลาง):** ใน Form Page เพิ่ม Dropdown เลือก "ภาษาของคำทักทาย" (ไทย / อังกฤษ / ญี่ปุ่น) และเปลี่ยนข้อความคำทักทายตามภาษาที่เลือก
 
 **โจทย์ D (ยาก):** สร้าง Tab ใหม่ "Todo List" ที่มี TextField รับชื่องาน, ปุ่ม Add, รายการ Todo ที่กดติ๊กถูก/ลบได้ และแสดงจำนวนงานที่เหลือ
 
----
+![alt text](<Recording 2026-07-23 223632.gif>)
 
+---
 
 ### คำถามท้ายใบงาน
 
 **ข้อ 1** ทำไม Flutter ถึงเลือกวาด UI ด้วย Engine ของตัวเองแทนการใช้ Native Component? มีข้อดีและข้อเสียอย่างไร?
 
+> **ตอบ:**
+>
+> - **ข้อดี:** คุมหน้าตาแอปได้ง่าย เพราะมันจะออกมาเหมือนกันเป๊ะทั้งบน iOS และ Android แถมทำงานลื่นไหลเพราะไม่ต้องคุยผ่าน Native Bridge
+> - **ข้อเสีย:** บางที UI อาจจะไม่ได้ดูเหมือนแอป Native ของเครื่องนั้น 100% และถ้า OS มีอัปเดตอะไรใหม่ๆ ต้องรอให้ Flutter อัปเดตตามก่อนถึงจะใช้ได้
+
 **ข้อ 2** อธิบายความสัมพันธ์ของ Widget Tree, Element Tree และ RenderObject Tree และเหตุผลที่ต้องมีทั้ง 3 ส่วน
 
-**ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget 
+> **ตอบ:**
+>
+> - **Widget Tree:** เป็นเหมือนพิมพ์เขียวบอกว่าหน้าตา UI จะเป็นยังไง
+> - **Element Tree:** เป็นตัวกลางคอยเชื่อมและเช็คว่ามีอะไรเปลี่ยนแปลงไหม
+> - **RenderObject Tree:** ตัวที่ทำหน้าที่วาดลงบนหน้าจอจริงๆ
+>   ที่ต้องมี 3 ส่วนเพื่อแยกหน้าที่กัน ช่วยให้ไม่ต้องวาดจอใหม่ทั้งหมดทุกครั้ง แอปจะได้ไม่หน่วง
+
+**ข้อ 3** อธิบายโครงสร้าง Widget Tree และความสัมพันธ์ระหว่าง Parent-Child Widget
+
+> **ตอบ:** โครงสร้างจะเหมือนต้นไม้แตกกิ่งก้าน โดยมี Widget หลัก (Parent) ครอบ Widget ย่อย (Child) เอาไว้ และข้อมูลจะถูกส่งต่อจาก Parent ลงมาหา Child เสมอ
 
 **ข้อ 4** จากการทดลองที่ 4 ข้อ F (ลบ setState ออก) ผลที่เกิดขึ้นคืออะไร และอธิบายเหตุผลเชิงเทคนิคว่าทำไมจึงเกิดผลนั้น
 
+> **ตอบ:**
+>
+> - **ผลลัพธ์:** ตัวเลขบนจอไม่เปลี่ยน แต่ตัวแปรในโค้ดเปลี่ยนไปแล้วจริงๆ
+> - **เหตุผล:** เพราะเราเอา `setState()` ออก ระบบเลยไม่รู้ว่าค่ามันอัปเดตแล้ว ก็เลยไม่ได้สั่งให้วาดหน้าจอใหม่
+
 **ข้อ 5** เมื่อออกแบบ Flutter App ที่มี Widget หลายตัว จะตัดสินใจอย่างไรว่า Widget ไหนควรเป็น Stateless และ Widget ไหนควรเป็น Stateful? ยกตัวอย่างจากใบงานนี้
 
+> **ตอบ:**
+>
+> - **Stateless:** ใช้กับ UI ที่แสดงผลนิ่งๆ โชว์ข้อมูลเฉยๆ ไม่มีอะไรเปลี่ยนแปลง เช่น `InfoCard`
+> - **Stateful:** ใช้กับ UI ที่โต้ตอบกับคนใช้ได้ หรือมีค่าที่เปลี่ยนไปมาได้ เช่น `CounterSection` (นับเลข) หรือ `ClockWidget` (เวลาเดินตลอด)
+
 **ข้อ 6** เหตุใดจึงต้องเรียก `dispose()` และยกเลิก Timer ใน `ClockWidget`? หากไม่ทำจะเกิดอะไรขึ้นในระยะยาว?
+
+> **ตอบ:** ต้องเรียก `dispose()` เพื่อล้างข้อมูลและปิดการทำงานเมื่อเราไม่ได้เปิดหน้านั้นแล้ว ถ้าไม่ทำตัว Timer มันก็จะรันไปเรื่อยๆ กินเมมโมรี่ (Memory Leak) ทำให้แอปอืด เครื่องร้อน หรือแอปอาจจะเด้งหลุดได้เลย
 
 ---
 
 ## ข้อผิดพลาดที่พบบ่อยใน Flutter
 
-| อาการ | สาเหตุที่เป็นไปได้ | วิธีแก้ |
-|---|---|---|
-| UI ไม่อัปเดตเมื่อค่าเปลี่ยน | ลืม `setState()` | ห่อโค้ดด้วย `setState(() { ... })` |
-| `setState() after dispose()` | ไม่ check `mounted` | เพิ่ม `if (mounted)` ก่อน `setState` |
-| Widget ล้นหน้าจอ | Column ไม่มี Scroll | ห่อด้วย `SingleChildScrollView` |
-| `TextEditingController` Warning | ลืม dispose | เพิ่ม `controller.dispose()` ใน `dispose()` |
-| Hot Reload ไม่เห็นผล | แก้ `initState()` หรือ `main()` | ใช้ Hot Restart แทน |
-| `No connected devices` | ไม่ได้เปิด Emulator | เปิด Emulator ก่อนรัน `flutter run` |
-| `pub get` failed | Package ใน pubspec.yaml ผิด | ตรวจ indent และชื่อ Package |
+| อาการ                           | สาเหตุที่เป็นไปได้              | วิธีแก้                                     |
+| ------------------------------- | ------------------------------- | ------------------------------------------- |
+| UI ไม่อัปเดตเมื่อค่าเปลี่ยน     | ลืม `setState()`                | ห่อโค้ดด้วย `setState(() { ... })`          |
+| `setState() after dispose()`    | ไม่ check `mounted`             | เพิ่ม `if (mounted)` ก่อน `setState`        |
+| Widget ล้นหน้าจอ                | Column ไม่มี Scroll             | ห่อด้วย `SingleChildScrollView`             |
+| `TextEditingController` Warning | ลืม dispose                     | เพิ่ม `controller.dispose()` ใน `dispose()` |
+| Hot Reload ไม่เห็นผล            | แก้ `initState()` หรือ `main()` | ใช้ Hot Restart แทน                         |
+| `No connected devices`          | ไม่ได้เปิด Emulator             | เปิด Emulator ก่อนรัน `flutter run`         |
+| `pub get` failed                | Package ใน pubspec.yaml ผิด     | ตรวจ indent และชื่อ Package                 |
 
 ---
 
@@ -1564,5 +1580,5 @@ flutter devices
 
 ---
 
-*ใบงานการทดลองที่ 2-2 | Flutter Framework Basics*
-*วิชา: การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่*
+_ใบงานการทดลองที่ 2-2 | Flutter Framework Basics_
+_วิชา: การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่_
