@@ -1,5 +1,3 @@
-<img width="2520" height="1233" alt="image" src="https://github.com/user-attachments/assets/8090454a-7351-4671-b892-7c7423cf257e" /># Week02 Lab 2-2 — Flutter Framework Basics
-
 โปรเจกต์ Flutter สำหรับใบงานการทดลองที่ 2-2 (รายละเอียดใบงานเต็มดูที่ [week02_lab2-2.md](week02_lab2-2.md))
 
 โค้ดของแอปอยู่ที่ [`week02_flutter_lab/lib/main.dart`](week02_flutter_lab/lib/main.dart)
