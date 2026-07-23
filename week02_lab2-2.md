@@ -401,7 +401,8 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 ```
-บันทึกรูปที่นี่
+<img width="531" height="899" alt="image" src="https://github.com/user-attachments/assets/79f886e5-53cf-44a3-a5ec-570bd56ce2ee" />
+
 ```
 ---
 
