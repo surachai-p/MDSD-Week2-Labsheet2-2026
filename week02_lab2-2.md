@@ -599,16 +599,18 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="472" height="980" alt="image" src="https://github.com/user-attachments/assets/6e494316-78ff-4881-8c73-beb410321e13" />
+
+
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="470" height="988" alt="image" src="https://github.com/user-attachments/assets/d78dbb5b-545e-41da-9e6c-2e7ba977ddcb" />
+
+
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
@@ -748,9 +750,9 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
+<img width="482" height="987" alt="image" src="https://github.com/user-attachments/assets/aec50fcf-a679-4446-9b7b-d3f1f2433cee" />
+
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
